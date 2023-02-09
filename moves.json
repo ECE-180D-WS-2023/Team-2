@@ -1,0 +1,6756 @@
+{
+  "pokemon_moves": [
+ {
+   "identifier": "pound",
+   "type_id": 1,
+   "power": 40,
+   "pp": 35,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "karate chop",
+   "type_id": 2,
+   "power": 50,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "double slap",
+   "type_id": 1,
+   "power": 15,
+   "pp": 10,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "comet punch",
+   "type_id": 1,
+   "power": 18,
+   "pp": 15,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "mega punch",
+   "type_id": 1,
+   "power": 80,
+   "pp": 20,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "pay day",
+   "type_id": 1,
+   "power": 40,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fire punch",
+   "type_id": 10,
+   "power": 75,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "ice punch",
+   "type_id": 15,
+   "power": 75,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "thunder punch",
+   "type_id": 13,
+   "power": 75,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "scratch",
+   "type_id": 1,
+   "power": 40,
+   "pp": 35,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "vice grip",
+   "type_id": 1,
+   "power": 55,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "guillotine",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": 30,
+   "priority": 0
+ },
+ {
+   "identifier": "razor wind",
+   "type_id": 1,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "swords dance",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "cut",
+   "type_id": 1,
+   "power": 50,
+   "pp": 30,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "gust",
+   "type_id": 3,
+   "power": 40,
+   "pp": 35,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "wing attack",
+   "type_id": 3,
+   "power": 60,
+   "pp": 35,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "whirlwind",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority":  6
+ },
+ {
+   "identifier": "fly",
+   "type_id": 3,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "bind",
+   "type_id": 1,
+   "power": 15,
+   "pp": 20,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "slam",
+   "type_id": 1,
+   "power": 80,
+   "pp": 20,
+   "accuracy": 75,
+   "priority": 0
+ },
+ {
+   "identifier": "vine whip",
+   "type_id": 12,
+   "power": 45,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "stomp",
+   "type_id": 1,
+   "power": 65,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "double kick",
+   "type_id": 2,
+   "power": 30,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "mega kick",
+   "type_id": 1,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 75,
+   "priority": 0
+ },
+ {
+   "identifier": "jump kick",
+   "type_id": 2,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "rolling kick",
+   "type_id": 2,
+   "power": 60,
+   "pp": 15,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "sand attack",
+   "type_id": 5,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "headbutt",
+   "type_id": 1,
+   "power": 70,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "horn attack",
+   "type_id": 1,
+   "power": 65,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fury attack",
+   "type_id": 1,
+   "power": 15,
+   "pp": 20,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "horn drill",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": 30,
+   "priority": 0
+ },
+ {
+   "identifier": "tackle",
+   "type_id": 1,
+   "power": 40,
+   "pp": 35,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "body slam",
+   "type_id": 1,
+   "power": 85,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "wrap",
+   "type_id": 1,
+   "power": 15,
+   "pp": 20,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "take down",
+   "type_id": 1,
+   "power": 90,
+   "pp": 20,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "thrash",
+   "type_id": 1,
+   "power": 120,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "double edge",
+   "type_id": 1,
+   "power": 120,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "tail whip",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "poison sting",
+   "type_id": 4,
+   "power": 15,
+   "pp": 35,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "twineedle",
+   "type_id": 7,
+   "power": 25,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "pin missile",
+   "type_id": 7,
+   "power": 25,
+   "pp": 20,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "leer",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "bite",
+   "type_id": 17,
+   "power": 60,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "growl",
+   "type_id": 1,
+   "power": null,
+   "pp": 40,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "roar",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority":  6
+ },
+ {
+   "identifier": "sing",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": 55,
+   "priority": 0
+ },
+ {
+   "identifier": "supersonic",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": 55,
+   "priority": 0
+ },
+ {
+   "identifier": "sonic boom",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "disable",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "acid",
+   "type_id": 4,
+   "power": 40,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "ember",
+   "type_id": 10,
+   "power": 40,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "flamethrower",
+   "type_id": 10,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "mist",
+   "type_id": 15,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "water gun",
+   "type_id": 11,
+   "power": 40,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "hydro pump",
+   "type_id": 11,
+   "power": 110,
+   "pp": 5,
+   "accuracy": 80,
+   "priority": 0
+ },
+ {
+   "identifier": "surf",
+   "type_id": 11,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "ice beam",
+   "type_id": 15,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "blizzard",
+   "type_id": 15,
+   "power": 110,
+   "pp": 5,
+   "accuracy": 70,
+   "priority": 0
+ },
+ {
+   "identifier": "psybeam",
+   "type_id": 14,
+   "power": 65,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "bubble beam",
+   "type_id": 11,
+   "power": 65,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "aurora beam",
+   "type_id": 15,
+   "power": 65,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "hyper beam",
+   "type_id": 1,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "peck",
+   "type_id": 3,
+   "power": 35,
+   "pp": 35,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "drill peck",
+   "type_id": 3,
+   "power": 80,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "submission",
+   "type_id": 2,
+   "power": 80,
+   "pp": 20,
+   "accuracy": 80,
+   "priority": 0
+ },
+ {
+   "identifier": "low kick",
+   "type_id": 2,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "counter",
+   "type_id": 2,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority":  5
+ },
+ {
+   "identifier": "seismic toss",
+   "type_id": 2,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "strength",
+   "type_id": 1,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "absorb",
+   "type_id": 12,
+   "power": 20,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "mega drain",
+   "type_id": 12,
+   "power": 40,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "leech seed",
+   "type_id": 12,
+   "power": null,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "growth",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "razor leaf",
+   "type_id": 12,
+   "power": 55,
+   "pp": 25,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "solar beam",
+   "type_id": 12,
+   "power": 120,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "poison powder",
+   "type_id": 4,
+   "power": null,
+   "pp": 35,
+   "accuracy": 75,
+   "priority": 0
+ },
+ {
+   "identifier": "stun spore",
+   "type_id": 12,
+   "power": null,
+   "pp": 30,
+   "accuracy": 75,
+   "priority": 0
+ },
+ {
+   "identifier": "sleep powder",
+   "type_id": 12,
+   "power": null,
+   "pp": 15,
+   "accuracy": 75,
+   "priority": 0
+ },
+ {
+   "identifier": "petal dance",
+   "type_id": 12,
+   "power": 120,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "string shot",
+   "type_id": 7,
+   "power": null,
+   "pp": 40,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "dragon rage",
+   "type_id": 16,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fire spin",
+   "type_id": 10,
+   "power": 35,
+   "pp": 15,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "thunder shock",
+   "type_id": 13,
+   "power": 40,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "thunderbolt",
+   "type_id": 13,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "thunder wave",
+   "type_id": 13,
+   "power": null,
+   "pp": 20,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "thunder",
+   "type_id": 13,
+   "power": 110,
+   "pp": 10,
+   "accuracy": 70,
+   "priority": 0
+ },
+ {
+   "identifier": "rock throw",
+   "type_id": 6,
+   "power": 50,
+   "pp": 15,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "earthquake",
+   "type_id": 5,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fissure",
+   "type_id": 5,
+   "power": null,
+   "pp": 5,
+   "accuracy": 30,
+   "priority": 0
+ },
+ {
+   "identifier": "dig",
+   "type_id": 5,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "toxic",
+   "type_id": 4,
+   "power": null,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "confusion",
+   "type_id": 14,
+   "power": 50,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "psychic",
+   "type_id": 14,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "hypnosis",
+   "type_id": 14,
+   "power": null,
+   "pp": 20,
+   "accuracy": 60,
+   "priority": 0
+ },
+ {
+   "identifier": "meditate",
+   "type_id": 14,
+   "power": null,
+   "pp": 40,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "agility",
+   "type_id": 14,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "quick attack",
+   "type_id": 1,
+   "power": 40,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 1
+ },
+ {
+   "identifier": "rage",
+   "type_id": 1,
+   "power": 20,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "teleport",
+   "type_id": 14,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority":  6
+ },
+ {
+   "identifier": "night shade",
+   "type_id": 8,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "mimic",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "screech",
+   "type_id": 1,
+   "power": null,
+   "pp": 40,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "double team",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "recover",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "harden",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "minimize",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "smokescreen",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "confuse ray",
+   "type_id": 8,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "withdraw",
+   "type_id": 11,
+   "power": null,
+   "pp": 40,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "defense curl",
+   "type_id": 1,
+   "power": null,
+   "pp": 40,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "barrier",
+   "type_id": 14,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "light screen",
+   "type_id": 14,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "haze",
+   "type_id": 15,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "reflect",
+   "type_id": 14,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "focus energy",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "bide",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 1
+ },
+ {
+   "identifier": "metronome",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "mirror move",
+   "type_id": 3,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "self destruct",
+   "type_id": 1,
+   "power": 200,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "egg bomb",
+   "type_id": 1,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 75,
+   "priority": 0
+ },
+ {
+   "identifier": "lick",
+   "type_id": 8,
+   "power": 30,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "smog",
+   "type_id": 4,
+   "power": 30,
+   "pp": 20,
+   "accuracy": 70,
+   "priority": 0
+ },
+ {
+   "identifier": "sludge",
+   "type_id": 4,
+   "power": 65,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "bone club",
+   "type_id": 5,
+   "power": 65,
+   "pp": 20,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "fire blast",
+   "type_id": 10,
+   "power": 110,
+   "pp": 5,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "waterfall",
+   "type_id": 11,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "clamp",
+   "type_id": 11,
+   "power": 35,
+   "pp": 15,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "swift",
+   "type_id": 1,
+   "power": 60,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "skull bash",
+   "type_id": 1,
+   "power": 130,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "spike cannon",
+   "type_id": 1,
+   "power": 20,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "constrict",
+   "type_id": 1,
+   "power": 10,
+   "pp": 35,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "amnesia",
+   "type_id": 14,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "kinesis",
+   "type_id": 14,
+   "power": null,
+   "pp": 15,
+   "accuracy": 80,
+   "priority": 0
+ },
+ {
+   "identifier": "soft boiled",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "high jump kick",
+   "type_id": 2,
+   "power": 130,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "glare",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "dream eater",
+   "type_id": 14,
+   "power": 100,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "poison gas",
+   "type_id": 4,
+   "power": null,
+   "pp": 40,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "barrage",
+   "type_id": 1,
+   "power": 15,
+   "pp": 20,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "leech life",
+   "type_id": 7,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "lovely kiss",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": 75,
+   "priority": 0
+ },
+ {
+   "identifier": "sky attack",
+   "type_id": 3,
+   "power": 140,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "transform",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "bubble",
+   "type_id": 11,
+   "power": 40,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "dizzy punch",
+   "type_id": 1,
+   "power": 70,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "spore",
+   "type_id": 12,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "flash",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "psywave",
+   "type_id": 14,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "splash",
+   "type_id": 1,
+   "power": null,
+   "pp": 40,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "acid armor",
+   "type_id": 4,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "crabhammer",
+   "type_id": 11,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "explosion",
+   "type_id": 1,
+   "power": 250,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fury swipes",
+   "type_id": 1,
+   "power": 18,
+   "pp": 15,
+   "accuracy": 80,
+   "priority": 0
+ },
+ {
+   "identifier": "bonemerang",
+   "type_id": 5,
+   "power": 50,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "rest",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "rock slide",
+   "type_id": 6,
+   "power": 75,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "hyper fang",
+   "type_id": 1,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "sharpen",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "conversion",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "tri attack",
+   "type_id": 1,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "super fang",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "slash",
+   "type_id": 1,
+   "power": 70,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "substitute",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "struggle",
+   "type_id": 1,
+   "power": 50,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "sketch",
+   "type_id": 1,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "triple kick",
+   "type_id": 2,
+   "power": 10,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "thief",
+   "type_id": 17,
+   "power": 60,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "spider web",
+   "type_id": 7,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "mind reader",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "nightmare",
+   "type_id": 8,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "flame wheel",
+   "type_id": 10,
+   "power": 60,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "snore",
+   "type_id": 1,
+   "power": 50,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "curse",
+   "type_id": 8,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "flail",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "conversion 2",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "aeroblast",
+   "type_id": 3,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "cotton spore",
+   "type_id": 12,
+   "power": null,
+   "pp": 40,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "reversal",
+   "type_id": 2,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "spite",
+   "type_id": 8,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "powder snow",
+   "type_id": 15,
+   "power": 40,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "protect",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 4
+ },
+ {
+   "identifier": "mach punch",
+   "type_id": 2,
+   "power": 40,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 1
+ },
+ {
+   "identifier": "scary face",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "feint attack",
+   "type_id": 17,
+   "power": 60,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "sweet kiss",
+   "type_id": 18,
+   "power": null,
+   "pp": 10,
+   "accuracy": 75,
+   "priority": 0
+ },
+ {
+   "identifier": "belly drum",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "sludge bomb",
+   "type_id": 4,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "mud slap",
+   "type_id": 5,
+   "power": 20,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "octazooka",
+   "type_id": 11,
+   "power": 65,
+   "pp": 10,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "spikes",
+   "type_id": 5,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "zap cannon",
+   "type_id": 13,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 50,
+   "priority": 0
+ },
+ {
+   "identifier": "foresight",
+   "type_id": 1,
+   "power": null,
+   "pp": 40,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "destiny bond",
+   "type_id": 8,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "perish song",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "icy wind",
+   "type_id": 15,
+   "power": 55,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "detect",
+   "type_id": 2,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 4
+ },
+ {
+   "identifier": "bone rush",
+   "type_id": 5,
+   "power": 25,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "lock on",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "outrage",
+   "type_id": 16,
+   "power": 120,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "sandstorm",
+   "type_id": 6,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "giga drain",
+   "type_id": 12,
+   "power": 75,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "endure",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 4
+ },
+ {
+   "identifier": "charm",
+   "type_id": 18,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "rollout",
+   "type_id": 6,
+   "power": 30,
+   "pp": 20,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "false swipe",
+   "type_id": 1,
+   "power": 40,
+   "pp": 40,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "swagger",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "milk drink",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "spark",
+   "type_id": 13,
+   "power": 65,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fury cutter",
+   "type_id": 7,
+   "power": 40,
+   "pp": 20,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "steel wing",
+   "type_id": 9,
+   "power": 70,
+   "pp": 25,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "mean look",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "attract",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "sleep talk",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "heal bell",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "return",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "present",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "frustration",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "safeguard",
+   "type_id": 1,
+   "power": null,
+   "pp": 25,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "pain split",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "sacred fire",
+   "type_id": 10,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "magnitude",
+   "type_id": 5,
+   "power": null,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "dynamic punch",
+   "type_id": 2,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 50,
+   "priority": 0
+ },
+ {
+   "identifier": "megahorn",
+   "type_id": 7,
+   "power": 120,
+   "pp": 10,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "dragon breath",
+   "type_id": 16,
+   "power": 60,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "baton pass",
+   "type_id": 1,
+   "power": null,
+   "pp": 40,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "encore",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "pursuit",
+   "type_id": 17,
+   "power": 40,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "rapid spin",
+   "type_id": 1,
+   "power": 50,
+   "pp": 40,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "sweet scent",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "iron tail",
+   "type_id": 9,
+   "power": 100,
+   "pp": 15,
+   "accuracy": 75,
+   "priority": 0
+ },
+ {
+   "identifier": "metal claw",
+   "type_id": 9,
+   "power": 50,
+   "pp": 35,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "vital throw",
+   "type_id": 2,
+   "power": 70,
+   "pp": 10,
+   "accuracy": null,
+   "priority":  1
+ },
+ {
+   "identifier": "morning sun",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "synthesis",
+   "type_id": 12,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "moonlight",
+   "type_id": 18,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "hidden power",
+   "type_id": 1,
+   "power": 60,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "cross chop",
+   "type_id": 2,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 80,
+   "priority": 0
+ },
+ {
+   "identifier": "twister",
+   "type_id": 16,
+   "power": 40,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "rain dance",
+   "type_id": 11,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "sunny day",
+   "type_id": 10,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "crunch",
+   "type_id": 17,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "mirror coat",
+   "type_id": 14,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority":  5
+ },
+ {
+   "identifier": "psych up",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "extreme speed",
+   "type_id": 1,
+   "power": 80,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 2
+ },
+ {
+   "identifier": "ancient power",
+   "type_id": 6,
+   "power": 60,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow ball",
+   "type_id": 8,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "future sight",
+   "type_id": 14,
+   "power": 120,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "rock smash",
+   "type_id": 2,
+   "power": 40,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "whirlpool",
+   "type_id": 11,
+   "power": 35,
+   "pp": 15,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "beat up",
+   "type_id": 17,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fake out",
+   "type_id": 1,
+   "power": 40,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 3
+ },
+ {
+   "identifier": "uproar",
+   "type_id": 1,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "stockpile",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "spit up",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "swallow",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "heat wave",
+   "type_id": 10,
+   "power": 95,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "hail",
+   "type_id": 15,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "torment",
+   "type_id": 17,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "flatter",
+   "type_id": 17,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "will o wisp",
+   "type_id": 10,
+   "power": null,
+   "pp": 15,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "memento",
+   "type_id": 17,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "facade",
+   "type_id": 1,
+   "power": 70,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "focus punch",
+   "type_id": 2,
+   "power": 150,
+   "pp": 20,
+   "accuracy": 100,
+   "priority":  3
+ },
+ {
+   "identifier": "smelling salts",
+   "type_id": 1,
+   "power": 70,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "follow me",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 2
+ },
+ {
+   "identifier": "nature power",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "charge",
+   "type_id": 13,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "taunt",
+   "type_id": 17,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "helping hand",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 5
+ },
+ {
+   "identifier": "trick",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "role play",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "wish",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "assist",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "ingrain",
+   "type_id": 12,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "superpower",
+   "type_id": 2,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "magic coat",
+   "type_id": 14,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 4
+ },
+ {
+   "identifier": "recycle",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "revenge",
+   "type_id": 2,
+   "power": 60,
+   "pp": 10,
+   "accuracy": 100,
+   "priority":  4
+ },
+ {
+   "identifier": "brick break",
+   "type_id": 2,
+   "power": 75,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "yawn",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "knock off",
+   "type_id": 17,
+   "power": 65,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "endeavor",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "eruption",
+   "type_id": 10,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "skill swap",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "imprison",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "refresh",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "grudge",
+   "type_id": 8,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "snatch",
+   "type_id": 17,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 4
+ },
+ {
+   "identifier": "secret power",
+   "type_id": 1,
+   "power": 70,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "dive",
+   "type_id": 11,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "arm thrust",
+   "type_id": 2,
+   "power": 15,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "camouflage",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "tail glow",
+   "type_id": 7,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "luster purge",
+   "type_id": 14,
+   "power": 70,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "mist ball",
+   "type_id": 14,
+   "power": 70,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "feather dance",
+   "type_id": 3,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "teeter dance",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "blaze kick",
+   "type_id": 10,
+   "power": 85,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "mud sport",
+   "type_id": 5,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "ice ball",
+   "type_id": 15,
+   "power": 30,
+   "pp": 20,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "needle arm",
+   "type_id": 12,
+   "power": 60,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "slack off",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "hyper voice",
+   "type_id": 1,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "poison fang",
+   "type_id": 4,
+   "power": 50,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "crush claw",
+   "type_id": 1,
+   "power": 75,
+   "pp": 10,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "blast burn",
+   "type_id": 10,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "hydro cannon",
+   "type_id": 11,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "meteor mash",
+   "type_id": 9,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "astonish",
+   "type_id": 8,
+   "power": 30,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "weather ball",
+   "type_id": 1,
+   "power": 50,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "aromatherapy",
+   "type_id": 12,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "fake tears",
+   "type_id": 17,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "air cutter",
+   "type_id": 3,
+   "power": 60,
+   "pp": 25,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "overheat",
+   "type_id": 10,
+   "power": 130,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "odor sleuth",
+   "type_id": 1,
+   "power": null,
+   "pp": 40,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "rock tomb",
+   "type_id": 6,
+   "power": 60,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "silver wind",
+   "type_id": 7,
+   "power": 60,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "metal sound",
+   "type_id": 9,
+   "power": null,
+   "pp": 40,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "grass whistle",
+   "type_id": 12,
+   "power": null,
+   "pp": 15,
+   "accuracy": 55,
+   "priority": 0
+ },
+ {
+   "identifier": "tickle",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "cosmic power",
+   "type_id": 14,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "water spout",
+   "type_id": 11,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "signal beam",
+   "type_id": 7,
+   "power": 75,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow punch",
+   "type_id": 8,
+   "power": 60,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "extrasensory",
+   "type_id": 14,
+   "power": 80,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "sky uppercut",
+   "type_id": 2,
+   "power": 85,
+   "pp": 15,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "sand tomb",
+   "type_id": 5,
+   "power": 35,
+   "pp": 15,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "sheer cold",
+   "type_id": 15,
+   "power": null,
+   "pp": 5,
+   "accuracy": 30,
+   "priority": 0
+ },
+ {
+   "identifier": "muddy water",
+   "type_id": 11,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "bullet seed",
+   "type_id": 12,
+   "power": 25,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "aerial ace",
+   "type_id": 3,
+   "power": 60,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "icicle spear",
+   "type_id": 15,
+   "power": 25,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "iron defense",
+   "type_id": 9,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "block",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "howl",
+   "type_id": 1,
+   "power": null,
+   "pp": 40,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "dragon claw",
+   "type_id": 16,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "frenzy plant",
+   "type_id": 12,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "bulk up",
+   "type_id": 2,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "bounce",
+   "type_id": 3,
+   "power": 85,
+   "pp": 5,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "mud shot",
+   "type_id": 5,
+   "power": 55,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "poison tail",
+   "type_id": 4,
+   "power": 50,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "covet",
+   "type_id": 1,
+   "power": 60,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "volt tackle",
+   "type_id": 13,
+   "power": 120,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "magical leaf",
+   "type_id": 12,
+   "power": 60,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "water sport",
+   "type_id": 11,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "calm mind",
+   "type_id": 14,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "leaf blade",
+   "type_id": 12,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "dragon dance",
+   "type_id": 16,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "rock blast",
+   "type_id": 6,
+   "power": 25,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "shock wave",
+   "type_id": 13,
+   "power": 60,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "water pulse",
+   "type_id": 11,
+   "power": 60,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "doom desire",
+   "type_id": 9,
+   "power": 140,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "psycho boost",
+   "type_id": 14,
+   "power": 140,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "roost",
+   "type_id": 3,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "gravity",
+   "type_id": 14,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "miracle eye",
+   "type_id": 14,
+   "power": null,
+   "pp": 40,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "wake up slap",
+   "type_id": 2,
+   "power": 70,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "hammer arm",
+   "type_id": 2,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "gyro ball",
+   "type_id": 9,
+   "power": null,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "healing wish",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "brine",
+   "type_id": 11,
+   "power": 65,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "natural gift",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "feint",
+   "type_id": 1,
+   "power": 30,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 2
+ },
+ {
+   "identifier": "pluck",
+   "type_id": 3,
+   "power": 60,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "tailwind",
+   "type_id": 3,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "acupressure",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "metal burst",
+   "type_id": 9,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "u turn",
+   "type_id": 7,
+   "power": 70,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "close combat",
+   "type_id": 2,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "payback",
+   "type_id": 17,
+   "power": 50,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "assurance",
+   "type_id": 17,
+   "power": 60,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "embargo",
+   "type_id": 17,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fling",
+   "type_id": 17,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "psycho shift",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "trump card",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "heal block",
+   "type_id": 14,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "wring out",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "power trick",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "gastro acid",
+   "type_id": 4,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "lucky chant",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "me first",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "copycat",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "power swap",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "guard swap",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "punishment",
+   "type_id": 17,
+   "power": null,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "last resort",
+   "type_id": 1,
+   "power": 140,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "worry seed",
+   "type_id": 12,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "sucker punch",
+   "type_id": 17,
+   "power": 70,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 1
+ },
+ {
+   "identifier": "toxic spikes",
+   "type_id": 4,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "heart swap",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "aqua ring",
+   "type_id": 11,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "magnet rise",
+   "type_id": 13,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "flare blitz",
+   "type_id": 10,
+   "power": 120,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "force palm",
+   "type_id": 2,
+   "power": 60,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "aura sphere",
+   "type_id": 2,
+   "power": 80,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "rock polish",
+   "type_id": 6,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "poison jab",
+   "type_id": 4,
+   "power": 80,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "dark pulse",
+   "type_id": 17,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "night slash",
+   "type_id": 17,
+   "power": 70,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "aqua tail",
+   "type_id": 11,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "seed bomb",
+   "type_id": 12,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "air slash",
+   "type_id": 3,
+   "power": 75,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "x scissor",
+   "type_id": 7,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "bug buzz",
+   "type_id": 7,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "dragon pulse",
+   "type_id": 16,
+   "power": 85,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "dragon rush",
+   "type_id": 16,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 75,
+   "priority": 0
+ },
+ {
+   "identifier": "power gem",
+   "type_id": 6,
+   "power": 80,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "drain punch",
+   "type_id": 2,
+   "power": 75,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "vacuum wave",
+   "type_id": 2,
+   "power": 40,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 1
+ },
+ {
+   "identifier": "focus blast",
+   "type_id": 2,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 70,
+   "priority": 0
+ },
+ {
+   "identifier": "energy ball",
+   "type_id": 12,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "brave bird",
+   "type_id": 3,
+   "power": 120,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "earth power",
+   "type_id": 5,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "switcheroo",
+   "type_id": 17,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "giga impact",
+   "type_id": 1,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "nasty plot",
+   "type_id": 17,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "bullet punch",
+   "type_id": 9,
+   "power": 40,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 1
+ },
+ {
+   "identifier": "avalanche",
+   "type_id": 15,
+   "power": 60,
+   "pp": 10,
+   "accuracy": 100,
+   "priority":  4
+ },
+ {
+   "identifier": "ice shard",
+   "type_id": 15,
+   "power": 40,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 1
+ },
+ {
+   "identifier": "shadow claw",
+   "type_id": 8,
+   "power": 70,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "thunder fang",
+   "type_id": 13,
+   "power": 65,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "ice fang",
+   "type_id": 15,
+   "power": 65,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "fire fang",
+   "type_id": 10,
+   "power": 65,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow sneak",
+   "type_id": 8,
+   "power": 40,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 1
+ },
+ {
+   "identifier": "mud bomb",
+   "type_id": 5,
+   "power": 65,
+   "pp": 10,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "psycho cut",
+   "type_id": 14,
+   "power": 70,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "zen headbutt",
+   "type_id": 14,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "mirror shot",
+   "type_id": 9,
+   "power": 65,
+   "pp": 10,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "flash cannon",
+   "type_id": 9,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "rock climb",
+   "type_id": 1,
+   "power": 90,
+   "pp": 20,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "defog",
+   "type_id": 3,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "trick room",
+   "type_id": 14,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority":  7
+ },
+ {
+   "identifier": "draco meteor",
+   "type_id": 16,
+   "power": 130,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "discharge",
+   "type_id": 13,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "lava plume",
+   "type_id": 10,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "leaf storm",
+   "type_id": 12,
+   "power": 130,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "power whip",
+   "type_id": 12,
+   "power": 120,
+   "pp": 10,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "rock wrecker",
+   "type_id": 6,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "cross poison",
+   "type_id": 4,
+   "power": 70,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "gunk shot",
+   "type_id": 4,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 80,
+   "priority": 0
+ },
+ {
+   "identifier": "iron head",
+   "type_id": 9,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "magnet bomb",
+   "type_id": 9,
+   "power": 60,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "stone edge",
+   "type_id": 6,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 80,
+   "priority": 0
+ },
+ {
+   "identifier": "captivate",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "stealth rock",
+   "type_id": 6,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "grass knot",
+   "type_id": 12,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "chatter",
+   "type_id": 3,
+   "power": 65,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "judgment",
+   "type_id": 1,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "bug bite",
+   "type_id": 7,
+   "power": 60,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "charge beam",
+   "type_id": 13,
+   "power": 50,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "wood hammer",
+   "type_id": 12,
+   "power": 120,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "aqua jet",
+   "type_id": 11,
+   "power": 40,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 1
+ },
+ {
+   "identifier": "attack order",
+   "type_id": 7,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "defend order",
+   "type_id": 7,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "heal order",
+   "type_id": 7,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "head smash",
+   "type_id": 6,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 80,
+   "priority": 0
+ },
+ {
+   "identifier": "double hit",
+   "type_id": 1,
+   "power": 35,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "roar of time",
+   "type_id": 16,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "spacial rend",
+   "type_id": 16,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "lunar dance",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "crush grip",
+   "type_id": 1,
+   "power": null,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "magma storm",
+   "type_id": 10,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 75,
+   "priority": 0
+ },
+ {
+   "identifier": "dark void",
+   "type_id": 17,
+   "power": null,
+   "pp": 10,
+   "accuracy": 50,
+   "priority": 0
+ },
+ {
+   "identifier": "seed flare",
+   "type_id": 12,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "ominous wind",
+   "type_id": 8,
+   "power": 60,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow force",
+   "type_id": 8,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "hone claws",
+   "type_id": 17,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "wide guard",
+   "type_id": 6,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 3
+ },
+ {
+   "identifier": "guard split",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "power split",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "wonder room",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "psyshock",
+   "type_id": 14,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "venoshock",
+   "type_id": 4,
+   "power": 65,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "autotomize",
+   "type_id": 9,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "rage powder",
+   "type_id": 7,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 2
+ },
+ {
+   "identifier": "telekinesis",
+   "type_id": 14,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "magic room",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "smack down",
+   "type_id": 6,
+   "power": 50,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "storm throw",
+   "type_id": 2,
+   "power": 60,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "flame burst",
+   "type_id": 10,
+   "power": 70,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "sludge wave",
+   "type_id": 4,
+   "power": 95,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "quiver dance",
+   "type_id": 7,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "heavy slam",
+   "type_id": 9,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "synchronoise",
+   "type_id": 14,
+   "power": 120,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "electro ball",
+   "type_id": 13,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "soak",
+   "type_id": 11,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "flame charge",
+   "type_id": 10,
+   "power": 50,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "coil",
+   "type_id": 4,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "low sweep",
+   "type_id": 2,
+   "power": 65,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "acid spray",
+   "type_id": 4,
+   "power": 40,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "foul play",
+   "type_id": 17,
+   "power": 95,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "simple beam",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "entrainment",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "after you",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "round",
+   "type_id": 1,
+   "power": 60,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "echoed voice",
+   "type_id": 1,
+   "power": 40,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "chip away",
+   "type_id": 1,
+   "power": 70,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "clear smog",
+   "type_id": 4,
+   "power": 50,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "stored power",
+   "type_id": 14,
+   "power": 20,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "quick guard",
+   "type_id": 2,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 3
+ },
+ {
+   "identifier": "ally switch",
+   "type_id": 14,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 2
+ },
+ {
+   "identifier": "scald",
+   "type_id": 11,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shell smash",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "heal pulse",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "hex",
+   "type_id": 8,
+   "power": 65,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "sky drop",
+   "type_id": 3,
+   "power": 60,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shift gear",
+   "type_id": 9,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "circle throw",
+   "type_id": 2,
+   "power": 60,
+   "pp": 10,
+   "accuracy": 90,
+   "priority":  6
+ },
+ {
+   "identifier": "incinerate",
+   "type_id": 10,
+   "power": 60,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "quash",
+   "type_id": 17,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "acrobatics",
+   "type_id": 3,
+   "power": 55,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "reflect type",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "retaliate",
+   "type_id": 1,
+   "power": 70,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "final gambit",
+   "type_id": 2,
+   "power": null,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "bestow",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "inferno",
+   "type_id": 10,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 50,
+   "priority": 0
+ },
+ {
+   "identifier": "water pledge",
+   "type_id": 11,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fire pledge",
+   "type_id": 10,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "grass pledge",
+   "type_id": 12,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "volt switch",
+   "type_id": 13,
+   "power": 70,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "struggle bug",
+   "type_id": 7,
+   "power": 50,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "bulldoze",
+   "type_id": 5,
+   "power": 60,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "frost breath",
+   "type_id": 15,
+   "power": 60,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "dragon tail",
+   "type_id": 16,
+   "power": 60,
+   "pp": 10,
+   "accuracy": 90,
+   "priority":  6
+ },
+ {
+   "identifier": "work up",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "electroweb",
+   "type_id": 13,
+   "power": 55,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "wild charge",
+   "type_id": 13,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "drill run",
+   "type_id": 5,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "dual chop",
+   "type_id": 16,
+   "power": 40,
+   "pp": 15,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "heart stamp",
+   "type_id": 14,
+   "power": 60,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "horn leech",
+   "type_id": 12,
+   "power": 75,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "sacred sword",
+   "type_id": 2,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "razor shell",
+   "type_id": 11,
+   "power": 75,
+   "pp": 10,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "heat crash",
+   "type_id": 10,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "leaf tornado",
+   "type_id": 12,
+   "power": 65,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "steamroller",
+   "type_id": 7,
+   "power": 65,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "cotton guard",
+   "type_id": 12,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "night daze",
+   "type_id": 17,
+   "power": 85,
+   "pp": 10,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "psystrike",
+   "type_id": 14,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "tail slap",
+   "type_id": 1,
+   "power": 25,
+   "pp": 10,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "hurricane",
+   "type_id": 3,
+   "power": 110,
+   "pp": 10,
+   "accuracy": 70,
+   "priority": 0
+ },
+ {
+   "identifier": "head charge",
+   "type_id": 1,
+   "power": 120,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "gear grind",
+   "type_id": 9,
+   "power": 50,
+   "pp": 15,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "searing shot",
+   "type_id": 10,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "techno blast",
+   "type_id": 1,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "relic song",
+   "type_id": 1,
+   "power": 75,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "secret sword",
+   "type_id": 2,
+   "power": 85,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "glaciate",
+   "type_id": 15,
+   "power": 65,
+   "pp": 10,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "bolt strike",
+   "type_id": 13,
+   "power": 130,
+   "pp": 5,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "blue flare",
+   "type_id": 10,
+   "power": 130,
+   "pp": 5,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "fiery dance",
+   "type_id": 10,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "freeze shock",
+   "type_id": 15,
+   "power": 140,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "ice burn",
+   "type_id": 15,
+   "power": 140,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "snarl",
+   "type_id": 17,
+   "power": 55,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "icicle crash",
+   "type_id": 15,
+   "power": 85,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "v create",
+   "type_id": 10,
+   "power": 180,
+   "pp": 5,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "fusion flare",
+   "type_id": 10,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fusion bolt",
+   "type_id": 13,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "flying press",
+   "type_id": 2,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "mat block",
+   "type_id": 2,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "belch",
+   "type_id": 4,
+   "power": 120,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "rototiller",
+   "type_id": 5,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "sticky web",
+   "type_id": 7,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "fell stinger",
+   "type_id": 7,
+   "power": 50,
+   "pp": 25,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "phantom force",
+   "type_id": 8,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "trick or treat",
+   "type_id": 8,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "noble roar",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "ion deluge",
+   "type_id": 13,
+   "power": null,
+   "pp": 25,
+   "accuracy": null,
+   "priority": 1
+ },
+ {
+   "identifier": "parabolic charge",
+   "type_id": 13,
+   "power": 65,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "forests curse",
+   "type_id": 12,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "petal blizzard",
+   "type_id": 12,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "freeze dry",
+   "type_id": 15,
+   "power": 70,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "disarming voice",
+   "type_id": 18,
+   "power": 40,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "parting shot",
+   "type_id": 17,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "topsy turvy",
+   "type_id": 17,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "draining kiss",
+   "type_id": 18,
+   "power": 50,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "crafty shield",
+   "type_id": 18,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 3
+ },
+ {
+   "identifier": "flower shield",
+   "type_id": 18,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "grassy terrain",
+   "type_id": 12,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "misty terrain",
+   "type_id": 18,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "electrify",
+   "type_id": 13,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "play rough",
+   "type_id": 18,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "fairy wind",
+   "type_id": 18,
+   "power": 40,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "moonblast",
+   "type_id": 18,
+   "power": 95,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "boomburst",
+   "type_id": 1,
+   "power": 140,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fairy lock",
+   "type_id": 18,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "kings shield",
+   "type_id": 9,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 4
+ },
+ {
+   "identifier": "play nice",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "confide",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "diamond storm",
+   "type_id": 6,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "steam eruption",
+   "type_id": 11,
+   "power": 110,
+   "pp": 5,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "hyperspace hole",
+   "type_id": 14,
+   "power": 80,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "water shuriken",
+   "type_id": 11,
+   "power": 15,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 1
+ },
+ {
+   "identifier": "mystical fire",
+   "type_id": 10,
+   "power": 75,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "spiky shield",
+   "type_id": 12,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 4
+ },
+ {
+   "identifier": "aromatic mist",
+   "type_id": 18,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "eerie impulse",
+   "type_id": 13,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "venom drench",
+   "type_id": 4,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "powder",
+   "type_id": 7,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 1
+ },
+ {
+   "identifier": "geomancy",
+   "type_id": 18,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "magnetic flux",
+   "type_id": 13,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "happy hour",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "electric terrain",
+   "type_id": 13,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "dazzling gleam",
+   "type_id": 18,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "celebrate",
+   "type_id": 1,
+   "power": null,
+   "pp": 40,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "hold hands",
+   "type_id": 1,
+   "power": null,
+   "pp": 40,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "baby doll eyes",
+   "type_id": 18,
+   "power": null,
+   "pp": 30,
+   "accuracy": 100,
+   "priority": 1
+ },
+ {
+   "identifier": "nuzzle",
+   "type_id": 13,
+   "power": 20,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "hold back",
+   "type_id": 1,
+   "power": 40,
+   "pp": 40,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "infestation",
+   "type_id": 7,
+   "power": 20,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "power up punch",
+   "type_id": 2,
+   "power": 40,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "oblivion wing",
+   "type_id": 3,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "thousand arrows",
+   "type_id": 5,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "thousand waves",
+   "type_id": 5,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "lands wrath",
+   "type_id": 5,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "light of ruin",
+   "type_id": 18,
+   "power": 140,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "origin pulse",
+   "type_id": 11,
+   "power": 110,
+   "pp": 10,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "precipice blades",
+   "type_id": 5,
+   "power": 120,
+   "pp": 10,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "dragon ascent",
+   "type_id": 3,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "hyperspace fury",
+   "type_id": 17,
+   "power": 100,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "breakneck blitz  physical",
+   "type_id": 1,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "breakneck blitz  special",
+   "type_id": 1,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "all out pummeling  physical",
+   "type_id": 2,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "all out pummeling  special",
+   "type_id": 2,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "supersonic skystrike  physical",
+   "type_id": 3,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "supersonic skystrike  special",
+   "type_id": 3,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "acid downpour  physical",
+   "type_id": 4,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "acid downpour  special",
+   "type_id": 4,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "tectonic rage  physical",
+   "type_id": 5,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "tectonic rage  special",
+   "type_id": 5,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "continental crush  physical",
+   "type_id": 6,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "continental crush  special",
+   "type_id": 6,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "savage spin out  physical",
+   "type_id": 7,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "savage spin out  special",
+   "type_id": 7,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "never ending nightmare  physical",
+   "type_id": 8,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "never ending nightmare  special",
+   "type_id": 8,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "corkscrew crash  physical",
+   "type_id": 9,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "corkscrew crash  special",
+   "type_id": 9,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "inferno overdrive  physical",
+   "type_id": 10,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "inferno overdrive  special",
+   "type_id": 10,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "hydro vortex  physical",
+   "type_id": 11,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "hydro vortex  special",
+   "type_id": 11,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "bloom doom  physical",
+   "type_id": 12,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "bloom doom  special",
+   "type_id": 12,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "gigavolt havoc  physical",
+   "type_id": 13,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "gigavolt havoc  special",
+   "type_id": 13,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "shattered psyche  physical",
+   "type_id": 14,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "shattered psyche  special",
+   "type_id": 14,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "subzero slammer  physical",
+   "type_id": 15,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "subzero slammer  special",
+   "type_id": 15,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "devastating drake  physical",
+   "type_id": 16,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "devastating drake  special",
+   "type_id": 16,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "black hole eclipse  physical",
+   "type_id": 17,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "black hole eclipse  special",
+   "type_id": 17,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "twinkle tackle  physical",
+   "type_id": 18,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "twinkle tackle  special",
+   "type_id": 18,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "catastropika",
+   "type_id": 13,
+   "power": 210,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "shore up",
+   "type_id": 5,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "first impression",
+   "type_id": 7,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 2
+ },
+ {
+   "identifier": "baneful bunker",
+   "type_id": 4,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 4
+ },
+ {
+   "identifier": "spirit shackle",
+   "type_id": 8,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "darkest lariat",
+   "type_id": 17,
+   "power": 85,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "sparkling aria",
+   "type_id": 11,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "ice hammer",
+   "type_id": 15,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "floral healing",
+   "type_id": 18,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "high horsepower",
+   "type_id": 5,
+   "power": 95,
+   "pp": 10,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "strength sap",
+   "type_id": 12,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "solar blade",
+   "type_id": 12,
+   "power": 125,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "leafage",
+   "type_id": 12,
+   "power": 40,
+   "pp": 40,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "spotlight",
+   "type_id": 1,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 3
+ },
+ {
+   "identifier": "toxic thread",
+   "type_id": 4,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "laser focus",
+   "type_id": 1,
+   "power": null,
+   "pp": 30,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "gear up",
+   "type_id": 9,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "throat chop",
+   "type_id": 17,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "pollen puff",
+   "type_id": 7,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "anchor shot",
+   "type_id": 9,
+   "power": 80,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "psychic terrain",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "lunge",
+   "type_id": 7,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fire lash",
+   "type_id": 10,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "power trip",
+   "type_id": 17,
+   "power": 20,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "burn up",
+   "type_id": 10,
+   "power": 130,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "speed swap",
+   "type_id": 14,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "smart strike",
+   "type_id": 9,
+   "power": 70,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "purify",
+   "type_id": 4,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "revelation dance",
+   "type_id": 1,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "core enforcer",
+   "type_id": 16,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "trop kick",
+   "type_id": 12,
+   "power": 70,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "instruct",
+   "type_id": 14,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "beak blast",
+   "type_id": 3,
+   "power": 100,
+   "pp": 15,
+   "accuracy": 100,
+   "priority":  3
+ },
+ {
+   "identifier": "clanging scales",
+   "type_id": 16,
+   "power": 110,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "dragon hammer",
+   "type_id": 16,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "brutal swing",
+   "type_id": 17,
+   "power": 60,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "aurora veil",
+   "type_id": 15,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "sinister arrow raid",
+   "type_id": 8,
+   "power": 180,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "malicious moonsault",
+   "type_id": 17,
+   "power": 180,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "oceanic operetta",
+   "type_id": 11,
+   "power": 195,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "guardian of alola",
+   "type_id": 18,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "soul stealing 7 star strike",
+   "type_id": 8,
+   "power": 195,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "stoked sparksurfer",
+   "type_id": 13,
+   "power": 175,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "pulverizing pancake",
+   "type_id": 1,
+   "power": 210,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "extreme evoboost",
+   "type_id": 1,
+   "power": null,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "genesis supernova",
+   "type_id": 14,
+   "power": 185,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "shell trap",
+   "type_id": 10,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 100,
+   "priority":  3
+ },
+ {
+   "identifier": "fleur cannon",
+   "type_id": 18,
+   "power": 130,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "psychic fangs",
+   "type_id": 14,
+   "power": 85,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "stomping tantrum",
+   "type_id": 5,
+   "power": 75,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow bone",
+   "type_id": 8,
+   "power": 85,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "accelerock",
+   "type_id": 6,
+   "power": 40,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 1
+ },
+ {
+   "identifier": "liquidation",
+   "type_id": 11,
+   "power": 85,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "prismatic laser",
+   "type_id": 14,
+   "power": 160,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "spectral thief",
+   "type_id": 8,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "sunsteel strike",
+   "type_id": 9,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "moongeist beam",
+   "type_id": 8,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "tearful look",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "zing zap",
+   "type_id": 13,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "natures madness",
+   "type_id": 18,
+   "power": null,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "multi attack",
+   "type_id": 1,
+   "power": 120,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "10 000 000 volt thunderbolt",
+   "type_id": 13,
+   "power": 195,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "mind blown",
+   "type_id": 10,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "plasma fists",
+   "type_id": 13,
+   "power": 100,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "photon geyser",
+   "type_id": 14,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "light that burns the sky",
+   "type_id": 14,
+   "power": 200,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "searing sunraze smash",
+   "type_id": 9,
+   "power": 200,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "menacing moonraze maelstrom",
+   "type_id": 8,
+   "power": 200,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "lets snuggle forever",
+   "type_id": 18,
+   "power": 190,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "splintered stormshards",
+   "type_id": 6,
+   "power": 190,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "clangorous soulblaze",
+   "type_id": 16,
+   "power": 185,
+   "pp": 1,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "zippy zap",
+   "type_id": 13,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 2
+ },
+ {
+   "identifier": "splishy splash",
+   "type_id": 11,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "floaty fall",
+   "type_id": 3,
+   "power": 90,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "pika papow",
+   "type_id": 13,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "bouncy bubble",
+   "type_id": 11,
+   "power": 60,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "buzzy buzz",
+   "type_id": 13,
+   "power": 60,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "sizzly slide",
+   "type_id": 10,
+   "power": 60,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "glitzy glow",
+   "type_id": 14,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "baddy bad",
+   "type_id": 17,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "sappy seed",
+   "type_id": 12,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "freezy frost",
+   "type_id": 15,
+   "power": 100,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "sparkly swirl",
+   "type_id": 18,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 85,
+   "priority": 0
+ },
+ {
+   "identifier": "veevee volley",
+   "type_id": 1,
+   "power": null,
+   "pp": 20,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "double iron bash",
+   "type_id": 9,
+   "power": 60,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "max guard",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 4
+ },
+ {
+   "identifier": "dynamax cannon",
+   "type_id": 16,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "snipe shot",
+   "type_id": 11,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "jaw lock",
+   "type_id": 17,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "stuff cheeks",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "no retreat",
+   "type_id": 2,
+   "power": null,
+   "pp": 5,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "tar shot",
+   "type_id": 6,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "magic powder",
+   "type_id": 14,
+   "power": null,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "dragon darts",
+   "type_id": 16,
+   "power": 50,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "teatime",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "octolock",
+   "type_id": 2,
+   "power": null,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "bolt beak",
+   "type_id": 13,
+   "power": 85,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fishious rend",
+   "type_id": 11,
+   "power": 85,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "court change",
+   "type_id": 1,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "max flare",
+   "type_id": 10,
+   "power": 100,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max flutterby",
+   "type_id": 7,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max lightning",
+   "type_id": 13,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max strike",
+   "type_id": 1,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max knuckle",
+   "type_id": 2,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max phantasm",
+   "type_id": 8,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max hailstorm",
+   "type_id": 15,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max ooze",
+   "type_id": 4,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max geyser",
+   "type_id": 11,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max airstream",
+   "type_id": 3,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max starfall",
+   "type_id": 18,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max wyrmwind",
+   "type_id": 16,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max mindstorm",
+   "type_id": 14,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max rockfall",
+   "type_id": 6,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max quake",
+   "type_id": 5,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max darkness",
+   "type_id": 17,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max overgrowth",
+   "type_id": 12,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "max steelspike",
+   "type_id": 9,
+   "power": 10,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "clangorous soul",
+   "type_id": 16,
+   "power": null,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "body press",
+   "type_id": 2,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "decorate",
+   "type_id": 18,
+   "power": null,
+   "pp": 15,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "drum beating",
+   "type_id": 12,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "snap trap",
+   "type_id": 12,
+   "power": 35,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "pyro ball",
+   "type_id": 10,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "behemoth blade",
+   "type_id": 9,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "behemoth bash",
+   "type_id": 9,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "aura wheel",
+   "type_id": 13,
+   "power": 110,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "breaking swipe",
+   "type_id": 16,
+   "power": 60,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "branch poke",
+   "type_id": 12,
+   "power": 40,
+   "pp": 40,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "overdrive",
+   "type_id": 13,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "apple acid",
+   "type_id": 12,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "grav apple",
+   "type_id": 12,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "spirit break",
+   "type_id": 18,
+   "power": 75,
+   "pp": 15,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "strange steam",
+   "type_id": 18,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "life dew",
+   "type_id": 11,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "obstruct",
+   "type_id": 17,
+   "power": null,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 4
+ },
+ {
+   "identifier": "false surrender",
+   "type_id": 17,
+   "power": 80,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "meteor assault",
+   "type_id": 2,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "eternabeam",
+   "type_id": 16,
+   "power": 160,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "steel beam",
+   "type_id": 9,
+   "power": 140,
+   "pp": 5,
+   "accuracy": 95,
+   "priority": 0
+ },
+ {
+   "identifier": "expanding force",
+   "type_id": 14,
+   "power": 80,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "steel roller",
+   "type_id": 9,
+   "power": 130,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "scale shot",
+   "type_id": 16,
+   "power": 25,
+   "pp": 20,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "meteor beam",
+   "type_id": 6,
+   "power": 120,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "shell side arm",
+   "type_id": 4,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "misty explosion",
+   "type_id": 18,
+   "power": 100,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "grassy glide",
+   "type_id": 12,
+   "power": 70,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "rising voltage",
+   "type_id": 13,
+   "power": 70,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "terrain pulse",
+   "type_id": 1,
+   "power": 50,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "skitter smack",
+   "type_id": 7,
+   "power": 70,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "burning jealousy",
+   "type_id": 10,
+   "power": 70,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "lash out",
+   "type_id": 17,
+   "power": 75,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "poltergeist",
+   "type_id": 8,
+   "power": 110,
+   "pp": 5,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "corrosive gas",
+   "type_id": 4,
+   "power": null,
+   "pp": 40,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "coaching",
+   "type_id": 2,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "flip turn",
+   "type_id": 11,
+   "power": 60,
+   "pp": 20,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "triple axel",
+   "type_id": 15,
+   "power": 20,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "dual wingbeat",
+   "type_id": 3,
+   "power": 40,
+   "pp": 10,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "scorching sands",
+   "type_id": 5,
+   "power": 70,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "jungle healing",
+   "type_id": 12,
+   "power": null,
+   "pp": 10,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "wicked blow",
+   "type_id": 17,
+   "power": 80,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "surging strikes",
+   "type_id": 11,
+   "power": 25,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "thunder cage",
+   "type_id": 13,
+   "power": 80,
+   "pp": 15,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "dragon energy",
+   "type_id": 16,
+   "power": 150,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "freezing glare",
+   "type_id": 14,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "fiery wrath",
+   "type_id": 17,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "thunderous kick",
+   "type_id": 2,
+   "power": 90,
+   "pp": 10,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "glacial lance",
+   "type_id": 15,
+   "power": 130,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "astral barrage",
+   "type_id": 8,
+   "power": 120,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "eerie spell",
+   "type_id": 14,
+   "power": 80,
+   "pp": 5,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow rush",
+   "type_id": 10002,
+   "power": 55,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow blast",
+   "type_id": 10002,
+   "power": 80,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow blitz",
+   "type_id": 10002,
+   "power": 40,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow bolt",
+   "type_id": 10002,
+   "power": 75,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow break",
+   "type_id": 10002,
+   "power": 75,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow chill",
+   "type_id": 10002,
+   "power": 75,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow end",
+   "type_id": 10002,
+   "power": 120,
+   "pp": null,
+   "accuracy": 60,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow fire",
+   "type_id": 10002,
+   "power": 75,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow rave",
+   "type_id": 10002,
+   "power": 70,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow storm",
+   "type_id": 10002,
+   "power": 95,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow wave",
+   "type_id": 10002,
+   "power": 50,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow down",
+   "type_id": 10002,
+   "power": null,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow half",
+   "type_id": 10002,
+   "power": null,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow hold",
+   "type_id": 10002,
+   "power": null,
+   "pp": null,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow mist",
+   "type_id": 10002,
+   "power": null,
+   "pp": null,
+   "accuracy": 100,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow panic",
+   "type_id": 10002,
+   "power": null,
+   "pp": null,
+   "accuracy": 90,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow shed",
+   "type_id": 10002,
+   "power": null,
+   "pp": null,
+   "accuracy": null,
+   "priority": 0
+ },
+ {
+   "identifier": "shadow sky",
+   "type_id": 10002,
+   "power": null,
+   "pp": null,
+   "accuracy": null,
+   "priority": 0
+ }
+]
+}
