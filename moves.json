@@ -25,7 +25,7 @@
    "priority": 0
  },
  {
-   "identifier": "comet punch",
+   "identifier": "Comet punch",
    "type_id": 1,
    "power": 18,
    "pp": 15,
@@ -33,7 +33,7 @@
    "priority": 0
  },
  {
-   "identifier": "mega punch",
+   "identifier": "Mega Punch",
    "type_id": 1,
    "power": 80,
    "pp": 20,
@@ -49,7 +49,7 @@
    "priority": 0
  },
  {
-   "identifier": "fire punch",
+   "identifier": "Fire Punch",
    "type_id": 10,
    "power": 75,
    "pp": 15,
@@ -65,7 +65,7 @@
    "priority": 0
  },
  {
-   "identifier": "thunder punch",
+   "identifier": "Thunder Punch",
    "type_id": 13,
    "power": 75,
    "pp": 15,
@@ -105,7 +105,7 @@
    "priority": 0
  },
  {
-   "identifier": "swords dance",
+   "identifier": "Swords Dance",
    "type_id": 1,
    "power": null,
    "pp": 20,
@@ -169,7 +169,7 @@
    "priority": 0
  },
  {
-   "identifier": "vine whip",
+   "identifier": "Vine whip",
    "type_id": 12,
    "power": 45,
    "pp": 25,
@@ -177,7 +177,7 @@
    "priority": 0
  },
  {
-   "identifier": "stomp",
+   "identifier": "Stomp",
    "type_id": 1,
    "power": 65,
    "pp": 20,
@@ -185,7 +185,7 @@
    "priority": 0
  },
  {
-   "identifier": "double kick",
+   "identifier": "double kick", 
    "type_id": 2,
    "power": 30,
    "pp": 30,
@@ -193,7 +193,7 @@
    "priority": 0
  },
  {
-   "identifier": "mega kick",
+   "identifier": "Mega kick",
    "type_id": 1,
    "power": 120,
    "pp": 5,
@@ -241,7 +241,7 @@
    "priority": 0
  },
  {
-   "identifier": "fury attack",
+   "identifier": "Fury attack",
    "type_id": 1,
    "power": 15,
    "pp": 20,
@@ -321,7 +321,7 @@
    "priority": 0
  },
  {
-   "identifier": "twineedle",
+   "identifier": "twin needle",
    "type_id": 7,
    "power": 25,
    "pp": 20,
@@ -337,7 +337,7 @@
    "priority": 0
  },
  {
-   "identifier": "leer",
+   "identifier": "leer", 
    "type_id": 1,
    "power": null,
    "pp": 30,
@@ -361,7 +361,7 @@
    "priority": 0
  },
  {
-   "identifier": "roar",
+   "identifier": "Roar",
    "type_id": 1,
    "power": null,
    "pp": 20,
@@ -409,7 +409,7 @@
    "priority": 0
  },
  {
-   "identifier": "ember",
+   "identifier": "Ember",
    "type_id": 10,
    "power": 40,
    "pp": 25,
@@ -673,7 +673,7 @@
    "priority": 0
  },
  {
-   "identifier": "thunderbolt",
+   "identifier": "Thunderbolt",
    "type_id": 13,
    "power": 90,
    "pp": 15,
@@ -1513,7 +1513,7 @@
    "priority": 0
  },
  {
-   "identifier": "octazooka",
+   "identifier": "octozooka",
    "type_id": 11,
    "power": 65,
    "pp": 10,
@@ -4697,7 +4697,7 @@
    "priority": 0
  },
  {
-   "identifier": "kings shield",
+   "identifier": "king's shield",
    "type_id": 9,
    "power": null,
    "pp": 10,
@@ -4921,7 +4921,7 @@
    "priority": 0
  },
  {
-   "identifier": "lands wrath",
+   "identifier": "land's wrath",
    "type_id": 5,
    "power": 90,
    "pp": 10,
@@ -4969,7 +4969,7 @@
    "priority": 0
  },
  {
-   "identifier": "breakneck blitz  physical",
+   "identifier": "breakneck blitz",
    "type_id": 1,
    "power": null,
    "pp": 1,
@@ -4977,7 +4977,7 @@
    "priority": 0
  },
  {
-   "identifier": "breakneck blitz  special",
+   "identifier": "breakneck blitz",
    "type_id": 1,
    "power": null,
    "pp": 1,
@@ -4985,7 +4985,7 @@
    "priority": 0
  },
  {
-   "identifier": "all out pummeling  physical",
+   "identifier": "all out pummeling",
    "type_id": 2,
    "power": null,
    "pp": 1,
@@ -4993,7 +4993,7 @@
    "priority": 0
  },
  {
-   "identifier": "all out pummeling  special",
+   "identifier": "all out pummeling",
    "type_id": 2,
    "power": null,
    "pp": 1,
@@ -5001,7 +5001,7 @@
    "priority": 0
  },
  {
-   "identifier": "supersonic skystrike  physical",
+   "identifier": "supersonic skystrike",
    "type_id": 3,
    "power": null,
    "pp": 1,
@@ -5009,7 +5009,7 @@
    "priority": 0
  },
  {
-   "identifier": "supersonic skystrike  special",
+   "identifier": "supersonic skystrike",
    "type_id": 3,
    "power": null,
    "pp": 1,
@@ -5017,7 +5017,7 @@
    "priority": 0
  },
  {
-   "identifier": "acid downpour  physical",
+   "identifier": "acid downpour",
    "type_id": 4,
    "power": null,
    "pp": 1,
@@ -5025,7 +5025,7 @@
    "priority": 0
  },
  {
-   "identifier": "acid downpour  special",
+   "identifier": "acid downpour",
    "type_id": 4,
    "power": null,
    "pp": 1,
@@ -5033,7 +5033,7 @@
    "priority": 0
  },
  {
-   "identifier": "tectonic rage  physical",
+   "identifier": "tectonic rage",
    "type_id": 5,
    "power": null,
    "pp": 1,
@@ -5041,7 +5041,7 @@
    "priority": 0
  },
  {
-   "identifier": "tectonic rage  special",
+   "identifier": "tectonic rage",
    "type_id": 5,
    "power": null,
    "pp": 1,
@@ -5049,7 +5049,7 @@
    "priority": 0
  },
  {
-   "identifier": "continental crush  physical",
+   "identifier": "continental crush",
    "type_id": 6,
    "power": null,
    "pp": 1,
@@ -5057,7 +5057,7 @@
    "priority": 0
  },
  {
-   "identifier": "continental crush  special",
+   "identifier": "continental crush",
    "type_id": 6,
    "power": null,
    "pp": 1,
@@ -5065,7 +5065,7 @@
    "priority": 0
  },
  {
-   "identifier": "savage spin out  physical",
+   "identifier": "savage spin out",
    "type_id": 7,
    "power": null,
    "pp": 1,
@@ -5073,7 +5073,7 @@
    "priority": 0
  },
  {
-   "identifier": "savage spin out  special",
+   "identifier": "savage spin out",
    "type_id": 7,
    "power": null,
    "pp": 1,
@@ -5081,7 +5081,7 @@
    "priority": 0
  },
  {
-   "identifier": "never ending nightmare  physical",
+   "identifier": "never ending nightmare",
    "type_id": 8,
    "power": null,
    "pp": 1,
@@ -5089,7 +5089,7 @@
    "priority": 0
  },
  {
-   "identifier": "never ending nightmare  special",
+   "identifier": "never ending nightmare",
    "type_id": 8,
    "power": null,
    "pp": 1,
@@ -5097,7 +5097,7 @@
    "priority": 0
  },
  {
-   "identifier": "corkscrew crash  physical",
+   "identifier": "corkscrew crash",
    "type_id": 9,
    "power": null,
    "pp": 1,
@@ -5105,7 +5105,7 @@
    "priority": 0
  },
  {
-   "identifier": "corkscrew crash  special",
+   "identifier": "corkscrew crash",
    "type_id": 9,
    "power": null,
    "pp": 1,
@@ -5113,7 +5113,7 @@
    "priority": 0
  },
  {
-   "identifier": "inferno overdrive  physical",
+   "identifier": "inferno overdrive",
    "type_id": 10,
    "power": null,
    "pp": 1,
@@ -5121,7 +5121,7 @@
    "priority": 0
  },
  {
-   "identifier": "inferno overdrive  special",
+   "identifier": "inferno overdrive",
    "type_id": 10,
    "power": null,
    "pp": 1,
@@ -5129,7 +5129,7 @@
    "priority": 0
  },
  {
-   "identifier": "hydro vortex  physical",
+   "identifier": "hydro vortex",
    "type_id": 11,
    "power": null,
    "pp": 1,
@@ -5137,7 +5137,7 @@
    "priority": 0
  },
  {
-   "identifier": "hydro vortex  special",
+   "identifier": "hydro vortex",
    "type_id": 11,
    "power": null,
    "pp": 1,
@@ -5145,7 +5145,7 @@
    "priority": 0
  },
  {
-   "identifier": "bloom doom  physical",
+   "identifier": "bloom doom",
    "type_id": 12,
    "power": null,
    "pp": 1,
@@ -5153,7 +5153,7 @@
    "priority": 0
  },
  {
-   "identifier": "bloom doom  special",
+   "identifier": "bloom doom",
    "type_id": 12,
    "power": null,
    "pp": 1,
@@ -5161,7 +5161,7 @@
    "priority": 0
  },
  {
-   "identifier": "gigavolt havoc  physical",
+   "identifier": "gigavolt havoc",
    "type_id": 13,
    "power": null,
    "pp": 1,
@@ -5169,7 +5169,7 @@
    "priority": 0
  },
  {
-   "identifier": "gigavolt havoc  special",
+   "identifier": "gigavolt havoc",
    "type_id": 13,
    "power": null,
    "pp": 1,
@@ -5177,7 +5177,7 @@
    "priority": 0
  },
  {
-   "identifier": "shattered psyche  physical",
+   "identifier": "shattered psyche",
    "type_id": 14,
    "power": null,
    "pp": 1,
@@ -5185,7 +5185,7 @@
    "priority": 0
  },
  {
-   "identifier": "shattered psyche  special",
+   "identifier": "shattered psyche",
    "type_id": 14,
    "power": null,
    "pp": 1,
@@ -5193,7 +5193,7 @@
    "priority": 0
  },
  {
-   "identifier": "subzero slammer  physical",
+   "identifier": "subzero slammer",
    "type_id": 15,
    "power": null,
    "pp": 1,
@@ -5201,7 +5201,7 @@
    "priority": 0
  },
  {
-   "identifier": "subzero slammer  special",
+   "identifier": "subzero slammer",
    "type_id": 15,
    "power": null,
    "pp": 1,
@@ -5209,7 +5209,7 @@
    "priority": 0
  },
  {
-   "identifier": "devastating drake  physical",
+   "identifier": "devastating drake",
    "type_id": 16,
    "power": null,
    "pp": 1,
@@ -5217,7 +5217,7 @@
    "priority": 0
  },
  {
-   "identifier": "devastating drake  special",
+   "identifier": "devastating drake",
    "type_id": 16,
    "power": null,
    "pp": 1,
@@ -5225,7 +5225,7 @@
    "priority": 0
  },
  {
-   "identifier": "black hole eclipse  physical",
+   "identifier": "black hole eclipse",
    "type_id": 17,
    "power": null,
    "pp": 1,
@@ -5233,7 +5233,7 @@
    "priority": 0
  },
  {
-   "identifier": "black hole eclipse  special",
+   "identifier": "black hole eclipse",
    "type_id": 17,
    "power": null,
    "pp": 1,
@@ -5241,7 +5241,7 @@
    "priority": 0
  },
  {
-   "identifier": "twinkle tackle  physical",
+   "identifier": "twinkle tackle",
    "type_id": 18,
    "power": null,
    "pp": 1,
@@ -5249,7 +5249,7 @@
    "priority": 0
  },
  {
-   "identifier": "twinkle tackle  special",
+   "identifier": "twinkle tackle",
    "type_id": 18,
    "power": null,
    "pp": 1,
@@ -5257,7 +5257,7 @@
    "priority": 0
  },
  {
-   "identifier": "catastropika",
+   "identifier": "catastropica",
    "type_id": 13,
    "power": 210,
    "pp": 1,
@@ -5745,7 +5745,7 @@
    "priority": 0
  },
  {
-   "identifier": "10 000 000 volt thunderbolt",
+   "identifier": "10 million volt thunderbolt",
    "type_id": 13,
    "power": 195,
    "pp": 1,
@@ -5801,7 +5801,7 @@
    "priority": 0
  },
  {
-   "identifier": "lets snuggle forever",
+   "identifier": "let's snuggle forever",
    "type_id": 18,
    "power": 190,
    "pp": 1,

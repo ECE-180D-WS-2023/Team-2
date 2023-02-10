@@ -54,24 +54,56 @@ def search(root, key):
 x = open('moves.json')
 moves = json.load(x)
 
-root = Node(moves['pokemon_moves'][0]['identifier'])
+first = moves['pokemon_moves'][0]['identifier'].upper()
+root = Node(first)
 
 for entry in moves['pokemon_moves'][1:]:
-	root = insert(root, entry['identifier'])
+	root = insert(root, entry['identifier'].upper())
+	#print(entry['identifier'][pos])
 
 #printBST(root)
 
 input_device_index = 1
 
 r = sr.Recognizer()
-r.energy_threshold = 4000
+r.energy_threshold = 5000
 r.dynamic_energy_threshold = True
 with sr.Microphone() as source:
 	r.adjust_for_ambient_noise(source)
 	print("Waiting for player command")
 	audio = r.listen(source)
 
-if (check(root, r.recognize_google(audio))):
-	print("__ used " + str(search(root, r.recognize_google(audio))) + "!")
+output = r.recognize_google(audio, language = "en-US", show_all = True)
+print(output)
+### output is a JSON ###
+
+### skip if nothing is heard ###
+if (output != []):
+
+	index = 0
+
+	### Find which object has the command that's in the tree ###
+	for i in output['alternative']:
+		print(i['transcript'])
+		if (check(root, i['transcript'].upper())):
+			break
+		else:
+			index = index + 1
+
+	result = ""
+	print(index)
+	if (index < len(output['alternative'])):
+		result = output['alternative'][index]['transcript'].upper()
+
+	print(result)
+	if (result != ""):
+		print("__ used " + str(search(root, result) + "!"))
+	elif (sr.UnknownValueError):
+		print("Unknown command!")
+	elif (sr.RequestError):
+		print("Command failed!")
+	else:
+		print("Unknown command!")
+
 else:
-	print("Unknown command!")
+	print("Command not recognized")
