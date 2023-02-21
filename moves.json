@@ -5785,6 +5785,7 @@
    "priority": 0
  },
  {
+   "__comment__": "unrecognized",
    "identifier": "searing sunraze smash",
    "type_id": 9,
    "power": 200,
@@ -5793,6 +5794,7 @@
    "priority": 0
  },
  {
+   "__comment__": "unrecognized",
    "identifier": "menacing moonraze maelstrom",
    "type_id": 8,
    "power": 200,
@@ -5817,7 +5819,7 @@
    "priority": 0
  },
  {
-   "identifier": "clangorous soulblaze",
+   "identifier": "clangorous soul blaze",
    "type_id": 16,
    "power": 185,
    "pp": 1,

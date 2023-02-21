@@ -1,6 +1,7 @@
 import speech_recognition as sr
 import json
 
+
 ### BST ###
 class Node:
 	def __init__(self, key):
@@ -21,6 +22,7 @@ def insert(root, key):
 	return root
 ###########
 
+
 ### print BST ###
 def printBST(root):
 	if root:
@@ -28,6 +30,7 @@ def printBST(root):
 		print(root.val)
 		printBST(root.right)
 #################
+
 
 ### returns true if in BST ###
 def check(root, key):
@@ -40,6 +43,7 @@ def check(root, key):
 	return check(root.right, key)
 ##################
 
+
 ### returns the move ###
 def search(root, key):
 	if root is None or root.val == key:
@@ -51,15 +55,31 @@ def search(root, key):
 	return search(root.right, key)
 ########################
 
-x = open('moves.json')
-moves = json.load(x)
 
-first = moves['pokemon_moves'][0]['identifier'].upper()
-root = Node(first)
+### pokemon name BST ###
+x = open('all_pokemon.json')
+names = json.load(x)
+
+name_first = names['pokemon_info'][0]['Name'].upper()
+name_root = Node(name_first)
+
+for entry in names['pokemon_info'][1:]:
+	root = insert(name_root, entry['Name'].upper())
+#########################
+
+
+### pokemon move BST ###
+y = open('moves.json')
+moves = json.load(y)
+
+move_first = moves['pokemon_moves'][0]['identifier'].upper()
+move_root = Node(move_first)
 
 for entry in moves['pokemon_moves'][1:]:
-	root = insert(root, entry['identifier'].upper())
+	root = insert(move_root, entry['identifier'].upper())
 	#print(entry['identifier'][pos])
+#########################
+
 
 #printBST(root)
 
@@ -84,18 +104,18 @@ if (output != []):
 
 	### Find which object has the command that's in the tree ###
 	for i in output['alternative']:
-		print(i['transcript'])
+		#print(i['transcript'])
 		if (check(root, i['transcript'].upper())):
 			break
 		else:
 			index = index + 1
 
 	result = ""
-	print(index)
+	#print(index)
 	if (index < len(output['alternative'])):
 		result = output['alternative'][index]['transcript'].upper()
 
-	print(result)
+	#print(result)
 	if (result != ""):
 		print("__ used " + str(search(root, result) + "!"))
 	elif (sr.UnknownValueError):
@@ -106,4 +126,24 @@ if (output != []):
 		print("Unknown command!")
 
 else:
-	print("Command not recognized")
+	print("No Input Detected")
+
+
+
+
+''' 
+########## TO DO ##########
+
+turn json result into array
+
+compare each element with bst #1 (pokemon)
+
+if found, check next element with "use" otherwise pokemon confuse
+
+if found, check next element with bst #2 (moves)
+
+if found, pokemon executes moves and sends signal, otherwise pokemon confuse
+
+if not recognized, try again
+
+'''
