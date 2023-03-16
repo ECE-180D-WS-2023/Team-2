@@ -1,3 +1,8 @@
+'''
+	listen for pokemon name and 'use'
+	store the rest of the input as a string
+	compare that string to the moves that pokemon knows
+'''
 import speech_recognition as sr
 import json
 from operator import itemgetter
@@ -103,7 +108,7 @@ def multi(move):
 
 
 ### pokemon name BST ###
-x = open('all_pokemon.json')
+x = open('all_pokemon.json', encoding="utf-8")
 names = json.load(x)
 
 name_first = names['pokemon_info'][0]['Name'].upper()
@@ -118,7 +123,7 @@ name_root = buildTree(name_root)
 
 
 ### pokemon move BST ###
-y = open('moves.json')
+y = open('moves.json', encoding="utf-8")
 moves = json.load(y)
 
 move_first = moves['pokemon_moves'][0]['identifier'].upper()
@@ -137,12 +142,12 @@ move_root = buildTree(move_root)
 input_device_index = 1
 
 r = sr.Recognizer()
-r.energy_threshold = 5000
-r.dynamic_energy_threshold = True
+r.energy_threshold = 500
+r.dynamic_energy_threshold = False
 with sr.Microphone() as source:
 	r.adjust_for_ambient_noise(source, duration = 1)
 	print("Waiting for player command")
-	audio = r.listen(source)
+	audio = r.listen(source, timeout = 5.0, phrase_time_limit = 5.0)
 
 output = r.recognize_google(audio, language = "en-US", show_all = True)
 print(output)
@@ -161,35 +166,41 @@ if (output != []):
 
 	### Find which object has the command that's in the tree ###
 	for i in output['alternative']:
-		#print(i['transcript'])
+		print(i['transcript'])
 
 		# turn transcript result into an array with each element being one word
 		transcript = i['transcript'].split()
-		print(transcript)
 
 		for j in range(len(transcript)):
 			#print(transcript[j])
 
 			if (check(name_root, transcript[j].upper())):
+				print("name found")
 				NAME_FOUND = True
+				NAME_INDEX = j
 				full_move[0] = transcript[j].title()
 				pass
 			elif (transcript[j] == 'use'):
+				print("command found")
 				COMMAND_FOUND = True
+				COMMAND_INDEX = j
 				full_move[1] = 'used'
 				pass
 			elif (check(move_root, transcript[j].upper())):
 				MOVE_FOUND = True
+				MOVE_INDEX = j
 				full_move[2] = search(move_root, transcript[j].upper())
 				break
 
 			### two word exceptions (a lot) ###
+			### add MOVE_INDEX = j to the rest as well ###
 			elif (j < len(transcript)):
 				try:
 					if (transcript[j].upper() == "KARATE"):
 						for k in range(1, len(transcript) - j):
 							if (transcript[j + k].upper() == "CHOP"):
 								MOVE_FOUND = True
+								MOVE_INDEX = j
 								full_move[2] = " ".join(itemgetter(j, j + k)(transcript)).title()
 								break
 				except IndexError:	# exit if out of bounds
@@ -200,6 +211,7 @@ if (output != []):
 						for k in range(1, len(transcript) - j):
 							if (transcript[j + k].upper() == "SLAP"):
 								MOVE_FOUND = True
+								MOVE_INDEX = j
 								full_move[2] = " ".join(itemgetter(j, j + k)(transcript)).title()
 								break
 				except IndexError:	# exit if out of bounds
@@ -4189,7 +4201,7 @@ if (output != []):
 
 					#### ADD LIKE 400 MORE AAAAAAHHH!!!!! ###
 
-		if (NAME_FOUND and COMMAND_FOUND and MOVE_FOUND == True):
+		if ((NAME_FOUND and COMMAND_FOUND and MOVE_FOUND == True) and NAME_INDEX < COMMAND_INDEX < MOVE_INDEX):
 			COMPLETE_COMMAND = True
 			break
 		else:
@@ -4198,9 +4210,6 @@ if (output != []):
 	#print(index)
 	#print(result)
 	if (COMPLETE_COMMAND == True):
-		print(full_move[0])
-		print(full_move[1])
-		print(full_move[2])
 		print(full_move[0] + " " + full_move[1] + " " + full_move[2] + "!")
 		### do the game stuff here ###
 	elif (sr.UnknownValueError):
@@ -4212,23 +4221,3 @@ if (output != []):
 
 else:
 	print("No Input Detected")
-
-
-
-
-''' 
-########## TO DO ##########
-
-turn json result into array
-
-compare each element with bst #1 (pokemon)
-
-if found, check next element with "use" otherwise pokemon confuse
-
-if found, check next element with bst #2 (moves)
-
-if found, pokemon executes moves and sends signal, otherwise pokemon confuse
-
-if not recognized, try again
-
-'''
