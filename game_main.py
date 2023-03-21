@@ -55,7 +55,7 @@ def on_message(client, userdata, message):
         start = message.payload
     if message.topic == 'meme/recog':
         recog = int(message.payload)
-        print("REceived")
+        print("Received")
     else:
         pass
 
@@ -73,7 +73,7 @@ def export(array, name):
                fmt ='% s')
 
 # 1. create a client instance.
-cli_name = "ash_ketucm"
+cli_name = "ash_ketchum"
 client = mqtt.Client(cli_name)
 # add additional client options (security, certifications, etc.)
 # many default options should be good to start off.
@@ -176,9 +176,9 @@ while (game == True):
         # compare above 2
         if(body_size > 0.2*img_size):
             
-            img2 = cv2.putText(img2, "bigg!", (50,100), font, 
+            img2 = cv2.putText(img2, "big!", (50,100), font, 
                    0.5, color, thickness, cv2.LINE_AA)
-            print("bigg")
+            print("big")
                 
         else:
             img2 = cv2.putText(img2, "smaaaawwll!", (50,100), font, 

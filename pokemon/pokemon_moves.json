@@ -1,0 +1,30 @@
+{
+  "pokemon_moves": [
+    {
+      "__comment__": "RedTeam",
+      "identifier": "Pound"
+    },
+    {
+      "identifier": "Karate Chop"
+    },
+    {
+      "identifier": "Double Slap"
+    },
+    {
+      "identifier": "Comet Punch"
+    },
+    {
+      "__comment__": "BlueTeam",
+      "identifier": "Lick"
+    },
+    {
+      "identifier": "Crabhammer"
+    },
+    {
+      "identifier": "Explosion"
+    },
+    {
+      "identifier": "Mega Drain"
+    }
+  ]
+}
