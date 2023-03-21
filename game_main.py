@@ -250,7 +250,7 @@ while (game == True):
                         whichteam = red_moves
                     elif (team == blue_team):
                         whichteam = blue_moves
-                    move_name = speech.speechInput(whichteam)
+                    move_name = speech.speechInput(team.fighter,name, whichteam)
                     move_choices.append(pokemon.battle.MoveChoice(
                         fighter=team.fighter, move=move_name, target=other_team.fighter))
                 for result in pokemon.battle.fight(move_choices):
