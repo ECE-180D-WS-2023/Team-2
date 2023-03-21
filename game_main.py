@@ -23,7 +23,13 @@ import cv2
 # for speech recognition
 import pokemon.speech as speech
 
+import json
+
 os.chdir('C:/Users/Ming Guo 69/Desktop/180DA-WarmUp/gesture_data_2')
+
+# EDIT FOR YOUR DIRECTORY #
+x = open('pokemon/pokemon_moves.json', encoding="utf-8")
+moves = json.load(x)   
 
 #################################################################### mqtt stuff #################################################
 # decalre global functions 
@@ -214,8 +220,13 @@ while (game == True):
         cv2.destroyAllWindows()
         
         ################################ game logic ##########################################################################
-        red_moves = ['tackle', 'hyper beam', 'hydro pump', 'leech life']
-        blue_moves = ['hydro pump', 'tackle', 'cut', 'surf']
+        red_moves = []
+        blue_moves = []
+
+        for entry in moves['pokemon_moves'][0:4]:
+            red_moves.append(entry['identifier'].lower())
+        for entry in moves['pokemon_moves'][4:8]:
+            blue_moves.append(entry['identifier'].lower())
 
         if __name__ == '__main__':
             red_team = pokemon.battle.Team([
