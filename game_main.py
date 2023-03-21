@@ -25,8 +25,6 @@ import pokemon.speech as speech
 
 import json
 
-os.chdir('C:/Users/Ming Guo 69/Desktop/180DA-WarmUp/gesture_data_2')
-
 # EDIT FOR YOUR DIRECTORY #
 x = open('C:/Users/Ming Guo 69/Desktop/Team-2/pokemon/pokemon_moves.json', encoding="utf-8")
 moves = json.load(x)   
