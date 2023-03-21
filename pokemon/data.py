@@ -57,7 +57,7 @@ def move_from_json(move_json):
 
 def stream_moves():
     moves_json = pkg_resources.resource_filename('pokemon', 'data/moves.json')
-    with open(moves_json) as f:
+    with open(moves_json,  encoding="utf8") as f:
         for line in f:
             move = move_from_json(line)
             if move:
