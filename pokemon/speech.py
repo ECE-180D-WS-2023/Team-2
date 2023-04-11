@@ -32,14 +32,19 @@ def speechInput(name, move):
 				print('checking: ' + transcript)
 
 				### if pokemon name, 'use', and pokemon move are said, valid ###
-				if (re.search(re.escape(name), transcript)):
-					if (re.search(re.escape(name), transcript).group() == name):
+				if (re.search(re.escape(name.lower()), transcript)):
+					# if exceptions ('we don't', transcript) (weedle)
+
+					if (re.search(re.escape(name.lower()), transcript).group() == name.lower()):
+						# if exceptions
+
+						print("pokemon called")
 						if (re.search('use', transcript)):
 							if (re.search('use', transcript).group() == 'use'):
 								if (re.search(re.escape(checkMove), transcript)):
 									if (re.search(re.escape(checkMove), transcript).group() == checkMove):
-										print ("mwahaha FOUND")
-										print (checkMove)
+										print ("move found")
+										#print (checkMove)
 										return checkMove
 									else:
 										continue
@@ -55,12 +60,12 @@ def speechInput(name, move):
 					continue
 
 		if (sr.UnknownValueError):
-			print("Unknown command!")
+			print("Unknown command! Try again.")
 			speechInput(name, move)
 		elif (sr.RequestError):
 			print("Command failed!")
 		else:
-			print("Unknown command!")
+			print("Unknown command! Try again.")
 
 	else:
 		print("No input")

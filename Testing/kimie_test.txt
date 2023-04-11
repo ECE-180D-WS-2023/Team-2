@@ -1,0 +1,254 @@
+(WarmEnv) chris@s-169-232-95-232 Testing % python speechTest.py
+Say: "Pikachu use Assurance"
+Waiting for player command
+{'alternative': [{'transcript': 'Pikachu use assurance', 'confidence': 0.97134751}, {'transcript': 'Pikachu use Esurance'}, {'transcript': 'Pikachu use insurance'}, {'transcript': 'Pikachu use a assurance'}, {'transcript': 'Pikachu use asurance'}], 'final': True}
+move: assurance
+checking: pikachu use assurance
+pokemon called
+move found
+Say: "Weedle use Quick Attack"
+Waiting for player command
+{'alternative': [{'transcript': "we don't use Quick attack", 'confidence': 0.91775531}, {'transcript': 'Weedle use Quick attack'}, {'transcript': 'we will use Quick attack'}, {'transcript': 'Weedle used quick attack'}, {'transcript': "we don't use Quik attack"}], 'final': True}
+move: tackle
+checking: we don't use quick attack
+checking: weedle use quick attack
+pokemon called
+checking: we will use quick attack
+checking: weedle used quick attack
+pokemon called
+checking: we don't use quik attack
+move: growl
+checking: we don't use quick attack
+checking: weedle use quick attack
+pokemon called
+checking: we will use quick attack
+checking: weedle used quick attack
+pokemon called
+checking: we don't use quik attack
+move: gust
+checking: we don't use quick attack
+checking: weedle use quick attack
+pokemon called
+checking: we will use quick attack
+checking: weedle used quick attack
+pokemon called
+checking: we don't use quik attack
+move: quick attack
+checking: we don't use quick attack
+checking: weedle use quick attack
+pokemon called
+move found
+Say: "Sandshrew use String Shot"
+Waiting for player command
+{'alternative': [{'transcript': 'Central use stringshot', 'confidence': 0.79057068}, {'transcript': 'Sandshrew use stringshot'}, {'transcript': 'Central U stringshot'}, {'transcript': 'Central U String Shot'}, {'transcript': 'Sandshrew used screenshot'}], 'final': True}
+move: quick attack
+checking: central use stringshot
+checking: sandshrew use stringshot
+pokemon called
+checking: central u stringshot
+checking: central u string shot
+checking: sandshrew used screenshot
+pokemon called
+move: string shot
+checking: central use stringshot
+checking: sandshrew use stringshot
+pokemon called
+checking: central u stringshot
+checking: central u string shot
+checking: sandshrew used screenshot
+pokemon called
+move: razor leaf
+checking: central use stringshot
+checking: sandshrew use stringshot
+pokemon called
+checking: central u stringshot
+checking: central u string shot
+checking: sandshrew used screenshot
+pokemon called
+move: razor leaf
+checking: central use stringshot
+checking: sandshrew use stringshot
+pokemon called
+checking: central u stringshot
+checking: central u string shot
+checking: sandshrew used screenshot
+pokemon called
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'say it again Central use', 'confidence': 0.85305691}, {'transcript': 'say it again Centro use'}, {'transcript': 'Central use'}, {'transcript': 'say it again Central'}, {'transcript': 'say it again Sandshrew use'}], 'final': True}
+move: quick attack
+checking: say it again central use
+checking: say it again centro use
+checking: central use
+checking: say it again central
+checking: say it again sandshrew use
+pokemon called
+move: string shot
+checking: say it again central use
+checking: say it again centro use
+checking: central use
+checking: say it again central
+checking: say it again sandshrew use
+pokemon called
+move: razor leaf
+checking: say it again central use
+checking: say it again centro use
+checking: central use
+checking: say it again central
+checking: say it again sandshrew use
+pokemon called
+move: razor leaf
+checking: say it again central use
+checking: say it again centro use
+checking: central use
+checking: say it again central
+checking: say it again sandshrew use
+pokemon called
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'Sandshrew use stringshot', 'confidence': 0.89121693}, {'transcript': 'Sandshrew use screenshot'}, {'transcript': 'Sandshrew used stringshot'}, {'transcript': 'Sandshrew use string shot'}, {'transcript': 'Sandshrew use slingshot'}], 'final': True}
+move: quick attack
+checking: sandshrew use stringshot
+pokemon called
+checking: sandshrew use screenshot
+pokemon called
+checking: sandshrew used stringshot
+pokemon called
+checking: sandshrew use string shot
+pokemon called
+checking: sandshrew use slingshot
+pokemon called
+move: string shot
+checking: sandshrew use stringshot
+pokemon called
+checking: sandshrew use screenshot
+pokemon called
+checking: sandshrew used stringshot
+pokemon called
+checking: sandshrew use string shot
+pokemon called
+move found
+Say: "Squirtle use Ember"
+Waiting for player command
+{'alternative': [{'transcript': 'Squirtle use Amber', 'confidence': 0.90870255}, {'transcript': 'Squirtle use Ember'}, {'transcript': 'a squirtle use Amber'}, {'transcript': 'Squirtle use Umber'}, {'transcript': 'a squirtle use Ember'}], 'final': True}
+move: ember
+checking: squirtle use amber
+pokemon called
+checking: squirtle use ember
+pokemon called
+move found
+Say: "Pidgey use Vine Whip"
+Waiting for player command
+{'alternative': [{'transcript': 'could you use fine whip', 'confidence': 0.86114132}, {'transcript': 'did you use fine whip'}, {'transcript': 'could you use Vine whip'}, {'transcript': 'did you use Vine whip'}, {'transcript': 'could you use fine WIP'}], 'final': True}
+move: tackle
+checking: could you use fine whip
+checking: did you use fine whip
+checking: could you use vine whip
+checking: did you use vine whip
+checking: could you use fine wip
+move: water gun
+checking: could you use fine whip
+checking: did you use fine whip
+checking: could you use vine whip
+checking: did you use vine whip
+checking: could you use fine wip
+move: vine whip
+checking: could you use fine whip
+checking: did you use fine whip
+checking: could you use vine whip
+checking: did you use vine whip
+checking: could you use fine wip
+move: fury cutter
+checking: could you use fine whip
+checking: did you use fine whip
+checking: could you use vine whip
+checking: did you use vine whip
+checking: could you use fine wip
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'Pidgey use fine whip', 'confidence': 0.91430593}, {'transcript': 'Pidgey use Vine whip'}, {'transcript': 'Pidgey use fine with'}, {'transcript': 'Pidgey used fine whip'}, {'transcript': 'Pidgey use find whip'}], 'final': True}
+move: tackle
+checking: pidgey use fine whip
+pokemon called
+checking: pidgey use vine whip
+pokemon called
+checking: pidgey use fine with
+pokemon called
+checking: pidgey used fine whip
+pokemon called
+checking: pidgey use find whip
+pokemon called
+move: water gun
+checking: pidgey use fine whip
+pokemon called
+checking: pidgey use vine whip
+pokemon called
+checking: pidgey use fine with
+pokemon called
+checking: pidgey used fine whip
+pokemon called
+checking: pidgey use find whip
+pokemon called
+move: vine whip
+checking: pidgey use fine whip
+pokemon called
+checking: pidgey use vine whip
+pokemon called
+move found
+Say: "Caterpie use Water Gun"
+Waiting for player command
+{'alternative': [{'transcript': 'powder P use water gun', 'confidence': 0.9200508}, {'transcript': 'caterp use water gun'}, {'transcript': 'powder pee use water gun'}, {'transcript': 'Tyler P use water gun'}, {'transcript': 'powder P use water guns'}], 'final': True}
+move: ember
+checking: powder p use water gun
+checking: caterp use water gun
+checking: powder pee use water gun
+checking: tyler p use water gun
+checking: powder p use water guns
+move: string shot
+checking: powder p use water gun
+checking: caterp use water gun
+checking: powder pee use water gun
+checking: tyler p use water gun
+checking: powder p use water guns
+move: water gun
+checking: powder p use water gun
+checking: caterp use water gun
+checking: powder pee use water gun
+checking: tyler p use water gun
+checking: powder p use water guns
+move: water gun
+checking: powder p use water gun
+checking: caterp use water gun
+checking: powder pee use water gun
+checking: tyler p use water gun
+checking: powder p use water guns
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'torp use water gun', 'confidence': 0.88482451}, {'transcript': 'caterp use water gun'}, {'transcript': 'Tyler P use water gun'}, {'transcript': 'Cotter P use water gun'}, {'transcript': 'caterpee use water gun'}], 'final': True}
+move: ember
+checking: torp use water gun
+checking: caterp use water gun
+checking: tyler p use water gun
+checking: cotter p use water gun
+checking: caterpee use water gun
+move: string shot
+checking: torp use water gun
+checking: caterp use water gun
+checking: tyler p use water gun
+checking: cotter p use water gun
+checking: caterpee use water gun
+move: water gun
+checking: torp use water gun
+checking: caterp use water gun
+checking: tyler p use water gun
+checking: cotter p use water gun
+checking: caterpee use water gun
+move: water gun
+checking: torp use water gun
+checking: caterp use water gun
+checking: tyler p use water gun
+checking: cotter p use water gun
+checking: caterpee use water gun
+Unknown command! Try again.
+Waiting for player command
+^C%                                                                                      (WarmEnv) chris@s-169-232-95-232 Testing % 
