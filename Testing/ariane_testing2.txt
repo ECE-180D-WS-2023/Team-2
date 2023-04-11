@@ -1,0 +1,154 @@
+(WarmEnv) chris@s-169-232-95-232 Testing % python speechTest.py
+Say:
+"Ekans use Gust"
+
+Waiting for player command
+[]
+No input
+Waiting for player command
+{'alternative': [{'transcript': 'econs use gust', 'confidence': 0.92849284}, {'transcript': 'Ekans use gust'}, {'transcript': 'econs use gusts'}, {'transcript': 'econs use dust'}, {'transcript': 'econs use gas'}], 'final': True}
+move: peck
+checking: econs use gust
+checking: ekans use gust
+pokemon called
+checking: econs use gusts
+checking: econs use dust
+checking: econs use gas
+move: bug bite
+checking: econs use gust
+checking: ekans use gust
+pokemon called
+checking: econs use gusts
+checking: econs use dust
+checking: econs use gas
+move: gust
+checking: econs use gust
+checking: ekans use gust
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Squirtle use Scratch"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Squirtle you scratch', 'confidence': 0.96909207}, {'transcript': 'Squirtle use scratch'}], 'final': True}
+move: scratch
+checking: squirtle you scratch
+pokemon called
+checking: squirtle use scratch
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Bulbasaur use Aerial Ace"
+
+Waiting for player command
+[]
+No input
+Waiting for player command
+{'alternative': [{'transcript': 'hold on bro Bulbasaur use Ariel Ace', 'confidence': 0.93155003}, {'transcript': 'hold on bro Bulbasaur use aerial Ace'}, {'transcript': 'hold on Bulbasaur use Ariel Ace'}, {'transcript': 'hold on bro Bulbasaur use Arial Ace'}, {'transcript': 'hold on brobasaur use Ariel Ace'}], 'final': True}
+move: water gun
+checking: hold on bro bulbasaur use ariel ace
+pokemon called
+checking: hold on bro bulbasaur use aerial ace
+pokemon called
+checking: hold on bulbasaur use ariel ace
+pokemon called
+checking: hold on bro bulbasaur use arial ace
+pokemon called
+checking: hold on brobasaur use ariel ace
+move: quick attack
+checking: hold on bro bulbasaur use ariel ace
+pokemon called
+checking: hold on bro bulbasaur use aerial ace
+pokemon called
+checking: hold on bulbasaur use ariel ace
+pokemon called
+checking: hold on bro bulbasaur use arial ace
+pokemon called
+checking: hold on brobasaur use ariel ace
+move: aerial ace
+checking: hold on bro bulbasaur use ariel ace
+pokemon called
+checking: hold on bro bulbasaur use aerial ace
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Pidgey use Tail Whip"
+
+Waiting for player command
+{'alternative': [{'transcript': 'do I still keep going', 'confidence': 0.94214964}, {'transcript': 'do I still keep calling'}, {'transcript': 'do I still keep it going'}, {'transcript': 'do I still keep your phone'}, {'transcript': 'do I still get going'}], 'final': True}
+move: aerial ace
+checking: do i still keep going
+checking: do i still keep calling
+checking: do i still keep it going
+checking: do i still keep your phone
+checking: do i still get going
+move: razor leaf
+checking: do i still keep going
+checking: do i still keep calling
+checking: do i still keep it going
+checking: do i still keep your phone
+checking: do i still get going
+move: ember
+checking: do i still keep going
+checking: do i still keep calling
+checking: do i still keep it going
+checking: do i still keep your phone
+checking: do i still get going
+move: tail whip
+checking: do i still keep going
+checking: do i still keep calling
+checking: do i still keep it going
+checking: do i still keep your phone
+checking: do i still get going
+Unknown command! Try again.
+Waiting for player command
+[]
+No input
+Waiting for player command
+{'alternative': [{'transcript': 'Pidgey use tail whip', 'confidence': 0.91919649}, {'transcript': 'Pidgey used tail whip'}, {'transcript': 'Pidgey use tailwhip'}, {'transcript': 'Pidgey use Tailwind'}, {'transcript': 'Pidgey use tail WIP'}], 'final': True}
+move: aerial ace
+checking: pidgey use tail whip
+pokemon called
+checking: pidgey used tail whip
+pokemon called
+checking: pidgey use tailwhip
+pokemon called
+checking: pidgey use tailwind
+pokemon called
+checking: pidgey use tail wip
+pokemon called
+move: razor leaf
+checking: pidgey use tail whip
+pokemon called
+checking: pidgey used tail whip
+pokemon called
+checking: pidgey use tailwhip
+pokemon called
+checking: pidgey use tailwind
+pokemon called
+checking: pidgey use tail wip
+pokemon called
+move: ember
+checking: pidgey use tail whip
+pokemon called
+checking: pidgey used tail whip
+pokemon called
+checking: pidgey use tailwhip
+pokemon called
+checking: pidgey use tailwind
+pokemon called
+checking: pidgey use tail wip
+pokemon called
+move: tail whip
+checking: pidgey use tail whip
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Pikachu use Ember"
+
+Waiting for player command
+^C%                                                                                      (WarmEnv) chris@s-169-232-95-232 Testing % 
