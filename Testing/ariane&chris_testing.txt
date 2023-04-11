@@ -1,0 +1,241 @@
+(WarmEnv) chris@s-169-232-95-232 Testing % python speechTest.py
+Say:
+"Pidgey use Thunder Shock"
+
+Waiting for player command
+{'alternative': [{'transcript': 'did you use thunder shock', 'confidence': 0.83366662}, {'transcript': 'did you use thundershock'}, {'transcript': 'did you thunder shock'}, {'transcript': 'did you thundershock'}, {'transcript': 'could you use thunder shock'}], 'final': True}
+move: bite
+checking: did you use thunder shock
+checking: did you use thundershock
+checking: did you thunder shock
+checking: did you thundershock
+checking: could you use thunder shock
+move: string shot
+checking: did you use thunder shock
+checking: did you use thundershock
+checking: did you thunder shock
+checking: did you thundershock
+checking: could you use thunder shock
+move: sand attack
+checking: did you use thunder shock
+checking: did you use thundershock
+checking: did you thunder shock
+checking: did you thundershock
+checking: could you use thunder shock
+move: thunder shock
+checking: did you use thunder shock
+checking: did you use thundershock
+checking: did you thunder shock
+checking: did you thundershock
+checking: could you use thunder shock
+Unknown command! Try again.
+Waiting for player command
+[]
+No input
+Waiting for player command
+{'alternative': [{'transcript': 'say it again Pidgey use thunder shock', 'confidence': 0.87854224}, {'transcript': 'say it again Pidgey use thundershock'}, {'transcript': 'say it again Pidgey used thunder shock'}, {'transcript': 'say it again Pidgey used thundershock'}, {'transcript': 'say it again Pidgey use thunderstock'}], 'final': True}
+move: bite
+checking: say it again pidgey use thunder shock
+pokemon called
+checking: say it again pidgey use thundershock
+pokemon called
+checking: say it again pidgey used thunder shock
+pokemon called
+checking: say it again pidgey used thundershock
+pokemon called
+checking: say it again pidgey use thunderstock
+pokemon called
+move: string shot
+checking: say it again pidgey use thunder shock
+pokemon called
+checking: say it again pidgey use thundershock
+pokemon called
+checking: say it again pidgey used thunder shock
+pokemon called
+checking: say it again pidgey used thundershock
+pokemon called
+checking: say it again pidgey use thunderstock
+pokemon called
+move: sand attack
+checking: say it again pidgey use thunder shock
+pokemon called
+checking: say it again pidgey use thundershock
+pokemon called
+checking: say it again pidgey used thunder shock
+pokemon called
+checking: say it again pidgey used thundershock
+pokemon called
+checking: say it again pidgey use thunderstock
+pokemon called
+move: thunder shock
+checking: say it again pidgey use thunder shock
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Sandshrew use Bite"
+
+Waiting for player command
+{'alternative': [{'transcript': 'is that what it said I said can you say that again', 'confidence': 0.85821676}, {'transcript': 'is that what it said I said this one Andrew used bite'}, {'transcript': 'is that what it said I said this one Andrew used bike'}, {'transcript': 'is that what it said I said this one Andrew used byte'}, {'transcript': 'is that what it said I said can you say that again this one Andrew used bite'}], 'final': True}
+move: bite
+checking: is that what it said i said can you say that again
+checking: is that what it said i said this one andrew used bite
+checking: is that what it said i said this one andrew used bike
+checking: is that what it said i said this one andrew used byte
+checking: is that what it said i said can you say that again this one andrew used bite
+move: water gun
+checking: is that what it said i said can you say that again
+checking: is that what it said i said this one andrew used bite
+checking: is that what it said i said this one andrew used bike
+checking: is that what it said i said this one andrew used byte
+checking: is that what it said i said can you say that again this one andrew used bite
+move: string shot
+checking: is that what it said i said can you say that again
+checking: is that what it said i said this one andrew used bite
+checking: is that what it said i said this one andrew used bike
+checking: is that what it said i said this one andrew used byte
+checking: is that what it said i said can you say that again this one andrew used bite
+move: electro ball
+checking: is that what it said i said can you say that again
+checking: is that what it said i said this one andrew used bite
+checking: is that what it said i said this one andrew used bike
+checking: is that what it said i said this one andrew used byte
+checking: is that what it said i said can you say that again this one andrew used bite
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': "also what computer is this is the newest one it's a Macbook m120 also", 'confidence': 0.9495768}, {'transcript': "also what computer is this is the newest one it's a Macbook m120 also can you say it again"}, {'transcript': "also what computer is this is the newest one it's a Macbook M1 2022 also"}, {'transcript': "also what computer is this is the newest one it's a Macbook M1 2022 also can you say it again"}, {'transcript': "also what computer is this is the newest one it's a Macbook m12022 also"}], 'final': True}
+move: bite
+checking: also what computer is this is the newest one it's a macbook m120 also
+checking: also what computer is this is the newest one it's a macbook m120 also can you say it again
+checking: also what computer is this is the newest one it's a macbook m1 2022 also
+checking: also what computer is this is the newest one it's a macbook m1 2022 also can you say it again
+checking: also what computer is this is the newest one it's a macbook m12022 also
+move: water gun
+checking: also what computer is this is the newest one it's a macbook m120 also
+checking: also what computer is this is the newest one it's a macbook m120 also can you say it again
+checking: also what computer is this is the newest one it's a macbook m1 2022 also
+checking: also what computer is this is the newest one it's a macbook m1 2022 also can you say it again
+checking: also what computer is this is the newest one it's a macbook m12022 also
+move: string shot
+checking: also what computer is this is the newest one it's a macbook m120 also
+checking: also what computer is this is the newest one it's a macbook m120 also can you say it again
+checking: also what computer is this is the newest one it's a macbook m1 2022 also
+checking: also what computer is this is the newest one it's a macbook m1 2022 also can you say it again
+checking: also what computer is this is the newest one it's a macbook m12022 also
+move: electro ball
+checking: also what computer is this is the newest one it's a macbook m120 also
+checking: also what computer is this is the newest one it's a macbook m120 also can you say it again
+checking: also what computer is this is the newest one it's a macbook m1 2022 also
+checking: also what computer is this is the newest one it's a macbook m1 2022 also can you say it again
+checking: also what computer is this is the newest one it's a macbook m12022 also
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': "okay well it's just racist", 'confidence': 0.93687755}, {'transcript': "okay well let's just racist"}, {'transcript': "okay well it's just racist I have to eat my life"}, {'transcript': "okay well let's just racist I have to eat my life"}, {'transcript': "okay well it's just racist I have to eat my love"}], 'final': True}
+move: bite
+checking: okay well it's just racist
+checking: okay well let's just racist
+checking: okay well it's just racist i have to eat my life
+checking: okay well let's just racist i have to eat my life
+checking: okay well it's just racist i have to eat my love
+move: water gun
+checking: okay well it's just racist
+checking: okay well let's just racist
+checking: okay well it's just racist i have to eat my life
+checking: okay well let's just racist i have to eat my life
+checking: okay well it's just racist i have to eat my love
+move: string shot
+checking: okay well it's just racist
+checking: okay well let's just racist
+checking: okay well it's just racist i have to eat my life
+checking: okay well let's just racist i have to eat my life
+checking: okay well it's just racist i have to eat my love
+move: electro ball
+checking: okay well it's just racist
+checking: okay well let's just racist
+checking: okay well it's just racist i have to eat my life
+checking: okay well let's just racist i have to eat my life
+checking: okay well it's just racist i have to eat my love
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'Central use bite', 'confidence': 0.62458897}, {'transcript': 'Centro use bite'}, {'transcript': 'Century used byte'}, {'transcript': "it's Andrew used byte"}, {'transcript': 'Central used byte'}], 'final': True}
+move: bite
+checking: central use bite
+checking: centro use bite
+checking: century used byte
+checking: it's andrew used byte
+checking: central used byte
+move: water gun
+checking: central use bite
+checking: centro use bite
+checking: century used byte
+checking: it's andrew used byte
+checking: central used byte
+move: string shot
+checking: central use bite
+checking: centro use bite
+checking: century used byte
+checking: it's andrew used byte
+checking: central used byte
+move: electro ball
+checking: central use bite
+checking: centro use bite
+checking: century used byte
+checking: it's andrew used byte
+checking: central used byte
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'see you soon use bite', 'confidence': 0.92804021}, {'transcript': 'see you soon bite'}, {'transcript': 'see you suck sound use bite'}, {'transcript': 'see you suck sex reviews bite'}, {'transcript': 'see you soon used bike'}], 'final': True}
+move: bite
+checking: see you soon use bite
+checking: see you soon bite
+checking: see you suck sound use bite
+checking: see you suck sex reviews bite
+checking: see you soon used bike
+move: water gun
+checking: see you soon use bite
+checking: see you soon bite
+checking: see you suck sound use bite
+checking: see you suck sex reviews bite
+checking: see you soon used bike
+move: string shot
+checking: see you soon use bite
+checking: see you soon bite
+checking: see you suck sound use bite
+checking: see you suck sex reviews bite
+checking: see you soon used bike
+move: electro ball
+checking: see you soon use bite
+checking: see you soon bite
+checking: see you suck sound use bite
+checking: see you suck sex reviews bite
+checking: see you soon used bike
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'said true use bite', 'confidence': 0.87560141}, {'transcript': 'sad true use bite'}, {'transcript': 'said true used byte'}, {'transcript': 'is that true use bite'}, {'transcript': 'said true use byte'}], 'final': True}
+move: bite
+checking: said true use bite
+checking: sad true use bite
+checking: said true used byte
+checking: is that true use bite
+checking: said true use byte
+move: water gun
+checking: said true use bite
+checking: sad true use bite
+checking: said true used byte
+checking: is that true use bite
+checking: said true use byte
+move: string shot
+checking: said true use bite
+checking: sad true use bite
+checking: said true used byte
+checking: is that true use bite
+checking: said true use byte
+move: electro ball
+checking: said true use bite
+checking: sad true use bite
+checking: said true used byte
+checking: is that true use bite
+checking: said true use byte
+Unknown command! Try again.
+Waiting for player command
+^C%                                                                                      (WarmEnv) chris@s-169-232-95-232 Testing % 

@@ -6,66 +6,66 @@ X - done
 Bulbasaur: - T
 Tackle - T
 Growl - T
-Vine Whip - O
-Razor Leaf - O
+Vine Whip - T
+Razor Leaf - T
 
 Charmander: - T
-Scratch - O
+Scratch - T
 Growl - T
 Ember - T
-Dragon Breath - O
+Dragon Breath - T
 
 Squirtle: - T
 Tackle - T
-Tail Whip - O
-Water Gun - O
-Bite - O
+Tail Whip - T
+Water Gun - T
+Bite - T
 
 Caterpie: - O
 Tackle - T
-String Shot - O
-Bug Bite - O
+String Shot - T
+Bug Bite - T
 
 Weedle: - O
-Poison Sting - O
-String Shot - O
-Bug Bite - O
+Poison Sting - T
+String Shot - T
+Bug Bite - T
 
 Pidgey: - O
 Tackle - T
-Gust - O
-Sand Attack - O
-Quick Attack - O
+Gust - T
+Quick Attack - T
+Feather Dance - T
 
 Rattata: - O
 Tackle - T
-Tail Whip - O
-Quick Attack - O
-Bite - O
+Tail Whip - T
+Quick Attack - T
+Bite - T
 
 Spearow: - O
-Peck - O
-Growl - O
-Assurance - O
-Aerial Ace - O
+Peck - T
+Growl - T
+Assurance - T
+Aerial Ace - T
 
 Ekans: - O
-Leer - O
-Poison Sting - O
-Bite - O
-Acid - O
+Leer - T
+Poison Sting - T
+Bite - T
+Acid - T
 
 Pikachu: - O
-Nuzzle - O
-Thunder Shock - O
-Quick Attack - O
-Electro Ball - O
+Nuzzle - T
+Thunder Shock - T
+Quick Attack - T
+Spark - T
 
 Sandshrew: - O
-Scratch - O
-Defense Curl - O
-Sand Attack - O
-Fury Cutter - O
+Scratch - T
+Defense Curl - T
+Fury Cutter - T
+Bulldoze - T
 
 
 Unique Moves:
@@ -82,7 +82,7 @@ Unique Moves:
 11. Bug Bite
 12. Poison Sting
 13. Gust
-14. Sand Attack
+14. Feather Dance
 15. Quick Attack
 16. Tail Whip
 17. Peck
@@ -92,6 +92,7 @@ Unique Moves:
 21. Acid
 22. Nuzzle
 23. Thunder Shock
-24. Electro Ball
+24. Spark
 25. Defense Curl
 26. Fury Cutter
+27. Bulldoze

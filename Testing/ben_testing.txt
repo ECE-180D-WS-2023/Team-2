@@ -1,0 +1,100 @@
+(WarmEnv) chris@s-169-232-95-232 Testing % python speechTest.py
+Say:
+"Rattata use Gust"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Rattata use gusts Rattata use gust', 'confidence': 0.90423268}, {'transcript': 'Rattata use gusts Rattata use Gus'}, {'transcript': 'Rattata use gusts Rattata use gusts'}, {'transcript': 'Rattata use gas Rattata use gust'}, {'transcript': 'Rattata use gusts Rattata use gas'}], 'final': True}
+move: gust
+checking: rattata use gusts rattata use gust
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Squirtle use Water Gun"
+
+Waiting for player command
+[]
+No input
+Waiting for player command
+{'alternative': [{'transcript': 'Squirtle use water gun', 'confidence': 0.96613151}, {'transcript': 'Squirtle used water gun'}, {'transcript': 'Squirtle use watergun'}], 'final': True}
+move: aerial ace
+checking: squirtle use water gun
+pokemon called
+checking: squirtle used water gun
+pokemon called
+checking: squirtle use watergun
+pokemon called
+move: water gun
+checking: squirtle use water gun
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Charmander use Dragon Breath"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Charmander use dragon breath', 'confidence': 0.90761268}, {'transcript': 'Charmander used dragon breath'}, {'transcript': 'Charmander used dragonbreath'}, {'transcript': 'Charmander use dragonbreath'}], 'final': True}
+move: acid
+checking: charmander use dragon breath
+pokemon called
+checking: charmander used dragon breath
+pokemon called
+checking: charmander used dragonbreath
+pokemon called
+checking: charmander use dragonbreath
+pokemon called
+move: dragon breath
+checking: charmander use dragon breath
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Rattata use Quick Attack"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Rattata use Quick attack', 'confidence': 0.96563095}, {'transcript': 'Rattata used quick attack'}, {'transcript': 'Rattata use quick-attack'}, {'transcript': 'Rattata to use Quick attack'}, {'transcript': 'Rattata use quickattack'}], 'final': True}
+move: electro ball
+checking: rattata use quick attack
+pokemon called
+checking: rattata used quick attack
+pokemon called
+checking: rattata use quick-attack
+pokemon called
+checking: rattata to use quick attack
+pokemon called
+checking: rattata use quickattack
+pokemon called
+move: tackle
+checking: rattata use quick attack
+pokemon called
+checking: rattata used quick attack
+pokemon called
+checking: rattata use quick-attack
+pokemon called
+checking: rattata to use quick attack
+pokemon called
+checking: rattata use quickattack
+pokemon called
+move: quick attack
+checking: rattata use quick attack
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Charmander use Gust"
+
+Waiting for player command
+[]
+No input
+Waiting for player command
+{'alternative': [{'transcript': 'oh a Charmander use gust', 'confidence': 0.89783734}, {'transcript': 'oh Charmander use gust'}, {'transcript': 'how a Charmander use gust'}, {'transcript': 'oh a Charmander used gust'}, {'transcript': 'oh Charmander used gust'}], 'final': True}
+move: gust
+checking: oh a charmander use gust
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Pikachu use String Shot"
+
+Waiting for player command
+^C%                                                                                      (WarmEnv) chris@s-169-232-95-232 Testing % 

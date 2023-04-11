@@ -1,0 +1,214 @@
+(WarmEnv) chris@s-169-232-95-232 Testing % python speechTest.py
+Say:
+"Squirtle use Fury Cutter"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Squirtle use fury cutter', 'confidence': 0.93842375}, {'transcript': 'Squirtle used Fury cutter'}, {'transcript': 'Squirtle use fury-cutter'}, {'transcript': 'Squirtle use fury color'}, {'transcript': 'Squirtle use furry cutter'}], 'final': True}
+move: vine whip
+checking: squirtle use fury cutter
+pokemon called
+checking: squirtle used fury cutter
+pokemon called
+checking: squirtle use fury-cutter
+pokemon called
+checking: squirtle use fury color
+pokemon called
+checking: squirtle use furry cutter
+pokemon called
+move: fury cutter
+checking: squirtle use fury cutter
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Charmander use Vine Whip"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Charmander use Vine whip', 'confidence': 0.89984548}, {'transcript': 'Charmander used Vine whip'}, {'transcript': 'Charmander use fine whip'}, {'transcript': 'Charmander used fine whip'}, {'transcript': 'Charmander use fine WIP'}], 'final': True}
+move: sand attack
+checking: charmander use vine whip
+pokemon called
+checking: charmander used vine whip
+pokemon called
+checking: charmander use fine whip
+pokemon called
+checking: charmander used fine whip
+pokemon called
+checking: charmander use fine wip
+pokemon called
+move: vine whip
+checking: charmander use vine whip
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Sandshrew use Fury Cutter"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Central use fury cutter', 'confidence': 0.84565222}, {'transcript': 'Centro use fury cutter'}, {'transcript': 'Sandshrew use fury cutter'}, {'transcript': 'Centrue use fury cutter'}, {'transcript': 'Central use fury-cutter'}], 'final': True}
+move: fury cutter
+checking: central use fury cutter
+checking: centro use fury cutter
+checking: sandshrew use fury cutter
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Spearow use Acid"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Spiro use acid', 'confidence': 0.91049385}, {'transcript': 'Sphero use acid'}, {'transcript': 'Spearow use acid'}, {'transcript': 'Spyro use acid'}, {'transcript': 'Spiro used acid'}], 'final': True}
+move: acid
+checking: spiro use acid
+checking: sphero use acid
+checking: spearow use acid
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Spearow use Sand Attack"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Spiro used Santa attack', 'confidence': 0.80559003}, {'transcript': 'Spiro use santa attack'}, {'transcript': 'Spiro used San attack'}, {'transcript': 'Spiro use San attack'}, {'transcript': 'Sphero use santa attack'}], 'final': True}
+move: sand attack
+checking: spiro used santa attack
+checking: spiro use santa attack
+checking: spiro used san attack
+checking: spiro use san attack
+checking: sphero use santa attack
+move: sand attack
+checking: spiro used santa attack
+checking: spiro use santa attack
+checking: spiro used san attack
+checking: spiro use san attack
+checking: sphero use santa attack
+move: sand attack
+checking: spiro used santa attack
+checking: spiro use santa attack
+checking: spiro used san attack
+checking: spiro use san attack
+checking: sphero use santa attack
+move: quick attack
+checking: spiro used santa attack
+checking: spiro use santa attack
+checking: spiro used san attack
+checking: spiro use san attack
+checking: sphero use santa attack
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'Bureau used sand attack', 'confidence': 0.69496131}, {'transcript': 'Bureau used Santa attack'}, {'transcript': 'Sphero use santa attack'}, {'transcript': 'Spiro use santa attack'}, {'transcript': 'Spiro used send attack'}], 'final': True}
+move: sand attack
+checking: bureau used sand attack
+checking: bureau used santa attack
+checking: sphero use santa attack
+checking: spiro use santa attack
+checking: spiro used send attack
+move: sand attack
+checking: bureau used sand attack
+checking: bureau used santa attack
+checking: sphero use santa attack
+checking: spiro use santa attack
+checking: spiro used send attack
+move: sand attack
+checking: bureau used sand attack
+checking: bureau used santa attack
+checking: sphero use santa attack
+checking: spiro use santa attack
+checking: spiro used send attack
+move: quick attack
+checking: bureau used sand attack
+checking: bureau used santa attack
+checking: sphero use santa attack
+checking: spiro use santa attack
+checking: spiro used send attack
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'girl Sphero use santa attack', 'confidence': 0.82072115}, {'transcript': 'girl Spiro used Santa attack'}, {'transcript': 'girl Sphero use santa tag'}, {'transcript': 'girl Spiro use santa attack'}, {'transcript': 'girl Sphero use Santa track'}], 'final': True}
+move: sand attack
+checking: girl sphero use santa attack
+checking: girl spiro used santa attack
+checking: girl sphero use santa tag
+checking: girl spiro use santa attack
+checking: girl sphero use santa track
+move: sand attack
+checking: girl sphero use santa attack
+checking: girl spiro used santa attack
+checking: girl sphero use santa tag
+checking: girl spiro use santa attack
+checking: girl sphero use santa track
+move: sand attack
+checking: girl sphero use santa attack
+checking: girl spiro used santa attack
+checking: girl sphero use santa tag
+checking: girl spiro use santa attack
+checking: girl sphero use santa track
+move: quick attack
+checking: girl sphero use santa attack
+checking: girl spiro used santa attack
+checking: girl sphero use santa tag
+checking: girl spiro use santa attack
+checking: girl sphero use santa track
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'I think your thing sucks', 'confidence': 0.9346081}, {'transcript': 'I think everything sucks'}, {'transcript': "I think you're thing sucks"}, {'transcript': 'I think your things sucks'}, {'transcript': 'I think your thing suck'}], 'final': True}
+move: sand attack
+checking: i think your thing sucks
+checking: i think everything sucks
+checking: i think you're thing sucks
+checking: i think your things sucks
+checking: i think your thing suck
+move: sand attack
+checking: i think your thing sucks
+checking: i think everything sucks
+checking: i think you're thing sucks
+checking: i think your things sucks
+checking: i think your thing suck
+move: sand attack
+checking: i think your thing sucks
+checking: i think everything sucks
+checking: i think you're thing sucks
+checking: i think your things sucks
+checking: i think your thing suck
+move: quick attack
+checking: i think your thing sucks
+checking: i think everything sucks
+checking: i think you're thing sucks
+checking: i think your things sucks
+checking: i think your thing suck
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'Sphero use santa attack', 'confidence': 0.8982954}, {'transcript': 'Spiro use santa attack'}, {'transcript': 'Spearow use santa attack'}, {'transcript': 'Spiro used Santa attack'}, {'transcript': 'Sphero use Santa track'}], 'final': True}
+move: sand attack
+checking: sphero use santa attack
+checking: spiro use santa attack
+checking: spearow use santa attack
+pokemon called
+checking: spiro used santa attack
+checking: sphero use santa track
+move: sand attack
+checking: sphero use santa attack
+checking: spiro use santa attack
+checking: spearow use santa attack
+pokemon called
+checking: spiro used santa attack
+checking: sphero use santa track
+move: sand attack
+checking: sphero use santa attack
+checking: spiro use santa attack
+checking: spearow use santa attack
+pokemon called
+checking: spiro used santa attack
+checking: sphero use santa track
+move: quick attack
+checking: sphero use santa attack
+checking: spiro use santa attack
+checking: spearow use santa attack
+pokemon called
+checking: spiro used santa attack
+checking: sphero use santa track
+Unknown command! Try again.
+Waiting for player command
+[]
+No input
+Waiting for player command
+^C%                                                                                      (WarmEnv) chris@s-169-232-95-232 Testing % 

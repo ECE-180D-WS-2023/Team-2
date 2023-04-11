@@ -38,7 +38,7 @@ moves = [
 	"Bug Bite", 
 	"Poison Sting", 
 	"Gust", 
-	"Sand Attack", 
+	"Feather Dance", 
 	"Quick Attack", 
 	"Tail Whip", 
 	"Peck", 
@@ -48,9 +48,10 @@ moves = [
 	"Acid", 
 	"Nuzzle", 
 	"Thunder Shock", 
-	"Electro Ball", 
+	"Spark", 
 	"Defense Curl", 
-	"Fury Cutter"
+	"Fury Cutter",
+	"Bulldoze"
 ]
 
 # choose random pokemon and move name
