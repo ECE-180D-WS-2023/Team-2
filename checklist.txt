@@ -1,0 +1,97 @@
+List of Pokemon and their moves we want to implement:
+O - implementing
+T - testing
+X - done
+
+Bulbasaur: - T
+Tackle - T
+Growl - T
+Vine Whip - O
+Razor Leaf - O
+
+Charmander: - T
+Scratch - O
+Growl - T
+Ember - T
+Dragon Breath - O
+
+Squirtle: - T
+Tackle - T
+Tail Whip - O
+Water Gun - O
+Bite - O
+
+Caterpie: - O
+Tackle - T
+String Shot - O
+Bug Bite - O
+
+Weedle: - O
+Poison Sting - O
+String Shot - O
+Bug Bite - O
+
+Pidgey: - O
+Tackle - T
+Gust - O
+Sand Attack - O
+Quick Attack - O
+
+Rattata: - O
+Tackle - T
+Tail Whip - O
+Quick Attack - O
+Bite - O
+
+Spearow: - O
+Peck - O
+Growl - O
+Assurance - O
+Aerial Ace - O
+
+Ekans: - O
+Leer - O
+Poison Sting - O
+Bite - O
+Acid - O
+
+Pikachu: - O
+Nuzzle - O
+Thunder Shock - O
+Quick Attack - O
+Electro Ball - O
+
+Sandshrew: - O
+Scratch - O
+Defense Curl - O
+Sand Attack - O
+Fury Cutter - O
+
+
+Unique Moves:
+1. Tackle
+2. Growl
+3. Vine Whip
+4. Razor Leaf
+5. Scratch
+6. Ember
+7. Dragon Breath
+8. Water Gun
+9. Bite
+10. String Shot
+11. Bug Bite
+12. Poison Sting
+13. Gust
+14. Sand Attack
+15. Quick Attack
+16. Tail Whip
+17. Peck
+18. Assurance
+19. Aerial Ace
+20. Leer
+21. Acid
+22. Nuzzle
+23. Thunder Shock
+24. Electro Ball
+25. Defense Curl
+26. Fury Cutter
