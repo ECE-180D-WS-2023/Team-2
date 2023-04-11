@@ -1,0 +1,132 @@
+(WarmEnv) chris@s-169-232-95-232 Testing % python speechTest.py
+Say:
+"Spearow use Ember"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Spearow use Ember', 'confidence': 0.80538028}, {'transcript': 'Spiro use Ember'}, {'transcript': 'Spiro use emperor'}, {'transcript': 'spero use Ember'}, {'transcript': 'Spiro use Amber'}], 'final': True}
+move: leer
+checking: spearow use ember
+pokemon called
+checking: spiro use ember
+checking: spiro use emperor
+checking: spero use ember
+checking: spiro use amber
+move: ember
+checking: spearow use ember
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Bulbasaur use Tail Whip"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Bulbasaur use tail whip bulbasaurus tailwhip', 'confidence': 0.87272865}, {'transcript': 'Bulbasaur use tail whip bulbasaurus tail whip'}, {'transcript': 'Bulbasaur used tail whip bulbasaurus tailwhip'}, {'transcript': 'Bulbasaur used tail whip bulbasaurus tail whip'}, {'transcript': 'Bulbasaur used tailwhip bulbasaurus tailwhip'}], 'final': True}
+move: leer
+checking: bulbasaur use tail whip bulbasaurus tailwhip
+pokemon called
+checking: bulbasaur use tail whip bulbasaurus tail whip
+pokemon called
+checking: bulbasaur used tail whip bulbasaurus tailwhip
+pokemon called
+checking: bulbasaur used tail whip bulbasaurus tail whip
+pokemon called
+checking: bulbasaur used tailwhip bulbasaurus tailwhip
+pokemon called
+move: bug bite
+checking: bulbasaur use tail whip bulbasaurus tailwhip
+pokemon called
+checking: bulbasaur use tail whip bulbasaurus tail whip
+pokemon called
+checking: bulbasaur used tail whip bulbasaurus tailwhip
+pokemon called
+checking: bulbasaur used tail whip bulbasaurus tail whip
+pokemon called
+checking: bulbasaur used tailwhip bulbasaurus tailwhip
+pokemon called
+move: bug bite
+checking: bulbasaur use tail whip bulbasaurus tailwhip
+pokemon called
+checking: bulbasaur use tail whip bulbasaurus tail whip
+pokemon called
+checking: bulbasaur used tail whip bulbasaurus tailwhip
+pokemon called
+checking: bulbasaur used tail whip bulbasaurus tail whip
+pokemon called
+checking: bulbasaur used tailwhip bulbasaurus tailwhip
+pokemon called
+move: tail whip
+checking: bulbasaur use tail whip bulbasaurus tailwhip
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Pikachu use Peck"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Pikachu use pack Pikachu', 'confidence': 0.93839288}, {'transcript': 'Pikachu use Peck Pikachu'}, {'transcript': 'Pikachu used pack Pikachu'}, {'transcript': 'Pikachu use PEC Pikachu'}, {'transcript': 'Pikachu use packachu'}], 'final': True}
+move: peck
+checking: pikachu use pack pikachu
+pokemon called
+checking: pikachu use peck pikachu
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Ekans use Bug Bite"
+
+Waiting for player command
+{'alternative': [{'transcript': 'so you guys give me to say I can just use bug bite', 'confidence': 0.89397913}, {'transcript': 'so you guys give me to say I can use bug bite'}, {'transcript': 'so you guys need to come home which one do you want me to say I can just use bug bite'}, {'transcript': 'so you guys need to call which one do you want me to say I can just use bug bite'}, {'transcript': 'so you guys need to come home which one do you want me to say I can use bug bite'}], 'final': True}
+move: gust
+checking: so you guys give me to say i can just use bug bite
+checking: so you guys give me to say i can use bug bite
+checking: so you guys need to come home which one do you want me to say i can just use bug bite
+checking: so you guys need to call which one do you want me to say i can just use bug bite
+checking: so you guys need to come home which one do you want me to say i can use bug bite
+move: string shot
+checking: so you guys give me to say i can just use bug bite
+checking: so you guys give me to say i can use bug bite
+checking: so you guys need to come home which one do you want me to say i can just use bug bite
+checking: so you guys need to call which one do you want me to say i can just use bug bite
+checking: so you guys need to come home which one do you want me to say i can use bug bite
+move: bug bite
+checking: so you guys give me to say i can just use bug bite
+checking: so you guys give me to say i can use bug bite
+checking: so you guys need to come home which one do you want me to say i can just use bug bite
+checking: so you guys need to call which one do you want me to say i can just use bug bite
+checking: so you guys need to come home which one do you want me to say i can use bug bite
+move: razor leaf
+checking: so you guys give me to say i can just use bug bite
+checking: so you guys give me to say i can use bug bite
+checking: so you guys need to come home which one do you want me to say i can just use bug bite
+checking: so you guys need to call which one do you want me to say i can just use bug bite
+checking: so you guys need to come home which one do you want me to say i can use bug bite
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'I said it right though Atkins use bug bite', 'confidence': 0.96145386}, {'transcript': 'I said it right though Atkins used bug bite'}, {'transcript': 'I said it right though Atkins use bug bites'}, {'transcript': 'I said it right though Atkins use bugbite'}, {'transcript': 'I said it right though ekins use bug bite'}], 'final': True}
+move: gust
+checking: i said it right though atkins use bug bite
+checking: i said it right though atkins used bug bite
+checking: i said it right though atkins use bug bites
+checking: i said it right though atkins use bugbite
+checking: i said it right though ekins use bug bite
+move: string shot
+checking: i said it right though atkins use bug bite
+checking: i said it right though atkins used bug bite
+checking: i said it right though atkins use bug bites
+checking: i said it right though atkins use bugbite
+checking: i said it right though ekins use bug bite
+move: bug bite
+checking: i said it right though atkins use bug bite
+checking: i said it right though atkins used bug bite
+checking: i said it right though atkins use bug bites
+checking: i said it right though atkins use bugbite
+checking: i said it right though ekins use bug bite
+move: razor leaf
+checking: i said it right though atkins use bug bite
+checking: i said it right though atkins used bug bite
+checking: i said it right though atkins use bug bites
+checking: i said it right though atkins use bugbite
+checking: i said it right though ekins use bug bite
+Unknown command! Try again.
+Waiting for player command
+^C%                                                                                      (WarmEnv) chris@s-169-232-95-232 Testing % 

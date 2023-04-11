@@ -1,0 +1,85 @@
+(WarmEnv) chris@s-169-232-95-232 Testing % python speechTest.py
+Say:
+"Bulbasaur use String Shot"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Bulbasaur use stringshot', 'confidence': 0.92525464}, {'transcript': 'Bulbasaur used stringshot'}, {'transcript': 'Bulbasaur use slingshot'}, {'transcript': 'Bulbasaur use string shot'}, {'transcript': 'Bulbasaur use strings shot'}], 'final': True}
+move: quick attack
+checking: bulbasaur use stringshot
+pokemon called
+checking: bulbasaur used stringshot
+pokemon called
+checking: bulbasaur use slingshot
+pokemon called
+checking: bulbasaur use string shot
+pokemon called
+checking: bulbasaur use strings shot
+pokemon called
+move: feather dance
+checking: bulbasaur use stringshot
+pokemon called
+checking: bulbasaur used stringshot
+pokemon called
+checking: bulbasaur use slingshot
+pokemon called
+checking: bulbasaur use string shot
+pokemon called
+checking: bulbasaur use strings shot
+pokemon called
+move: bite
+checking: bulbasaur use stringshot
+pokemon called
+checking: bulbasaur used stringshot
+pokemon called
+checking: bulbasaur use slingshot
+pokemon called
+checking: bulbasaur use string shot
+pokemon called
+checking: bulbasaur use strings shot
+pokemon called
+move: string shot
+checking: bulbasaur use stringshot
+pokemon called
+checking: bulbasaur used stringshot
+pokemon called
+checking: bulbasaur use slingshot
+pokemon called
+checking: bulbasaur use string shot
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Ekans use Bite"
+
+Waiting for player command
+[]
+No input
+Waiting for player command
+{'alternative': [{'transcript': "you can't use bite", 'confidence': 0.87492847}, {'transcript': "he can't use bite"}, {'transcript': 'ecans use bite'}, {'transcript': "I can't use bite"}, {'transcript': 'econs use bite'}], 'final': True}
+move: nuzzle
+checking: you can't use bite
+checking: he can't use bite
+checking: ecans use bite
+checking: i can't use bite
+checking: econs use bite
+move: tackle
+checking: you can't use bite
+checking: he can't use bite
+checking: ecans use bite
+checking: i can't use bite
+checking: econs use bite
+move: poison sting
+checking: you can't use bite
+checking: he can't use bite
+checking: ecans use bite
+checking: i can't use bite
+checking: econs use bite
+move: bite
+checking: you can't use bite
+checking: he can't use bite
+checking: ecans use bite
+checking: i can't use bite
+checking: econs use bite
+Unknown command! Try again.
+Waiting for player command
+^C%                                                                                      (WarmEnv) chris@s-169-232-95-232 Testing % 
