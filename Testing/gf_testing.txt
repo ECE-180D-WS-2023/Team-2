@@ -1,0 +1,533 @@
+(WarmEnv) chris@s-169-232-95-232 Testing % python speechTest.py
+Say:
+"Sandshrew use Scratch"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Sandshrew you scratch', 'confidence': 0.84766704}, {'transcript': 'send true you scratch'}, {'transcript': 'send through you scratch'}, {'transcript': 'send shrew you scratch'}, {'transcript': 'send true use scratch'}], 'final': True}
+move: bite
+checking: sandshrew you scratch
+pokemon called
+checking: send true you scratch
+checking: send through you scratch
+checking: send shrew you scratch
+checking: send true use scratch
+move: assurance
+checking: sandshrew you scratch
+pokemon called
+checking: send true you scratch
+checking: send through you scratch
+checking: send shrew you scratch
+checking: send true use scratch
+move: quick attack
+checking: sandshrew you scratch
+pokemon called
+checking: send true you scratch
+checking: send through you scratch
+checking: send shrew you scratch
+checking: send true use scratch
+move: scratch
+checking: sandshrew you scratch
+pokemon called
+checking: send true you scratch
+checking: send through you scratch
+checking: send shrew you scratch
+checking: send true use scratch
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'send send true use scratch', 'confidence': 0.94961131}, {'transcript': 'send send true you scratch'}, {'transcript': 'not send true use scratch'}, {'transcript': 'send send true youth scratch'}, {'transcript': "send send true you's scratch"}], 'final': True}
+move: bite
+checking: send send true use scratch
+checking: send send true you scratch
+checking: not send true use scratch
+checking: send send true youth scratch
+checking: send send true you's scratch
+move: assurance
+checking: send send true use scratch
+checking: send send true you scratch
+checking: not send true use scratch
+checking: send send true youth scratch
+checking: send send true you's scratch
+move: quick attack
+checking: send send true use scratch
+checking: send send true you scratch
+checking: not send true use scratch
+checking: send send true youth scratch
+checking: send send true you's scratch
+move: scratch
+checking: send send true use scratch
+checking: send send true you scratch
+checking: not send true use scratch
+checking: send send true youth scratch
+checking: send send true you's scratch
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'Sandshrew use scratch', 'confidence': 0.90383601}, {'transcript': 'sand shrew use scratch'}, {'transcript': 'send shrew use scratch'}, {'transcript': 'send true use scratch'}], 'final': True}
+move: bite
+checking: sandshrew use scratch
+pokemon called
+checking: sand shrew use scratch
+checking: send shrew use scratch
+checking: send true use scratch
+move: assurance
+checking: sandshrew use scratch
+pokemon called
+checking: sand shrew use scratch
+checking: send shrew use scratch
+checking: send true use scratch
+move: quick attack
+checking: sandshrew use scratch
+pokemon called
+checking: sand shrew use scratch
+checking: send shrew use scratch
+checking: send true use scratch
+move: scratch
+checking: sandshrew use scratch
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Ekans use Feather Dance"
+
+Waiting for player command
+{'alternative': [{'transcript': "he can't use a feather dance", 'confidence': 0.91115922}, {'transcript': "he can't use feather dance"}, {'transcript': 'he can use a feather dance'}, {'transcript': 'weekends use a feather dance'}, {'transcript': 'he cans use a feather dance'}], 'final': True}
+move: thunder shock
+checking: he can't use a feather dance
+checking: he can't use feather dance
+checking: he can use a feather dance
+checking: weekends use a feather dance
+checking: he cans use a feather dance
+move: bug bite
+checking: he can't use a feather dance
+checking: he can't use feather dance
+checking: he can use a feather dance
+checking: weekends use a feather dance
+checking: he cans use a feather dance
+move: vine whip
+checking: he can't use a feather dance
+checking: he can't use feather dance
+checking: he can use a feather dance
+checking: weekends use a feather dance
+checking: he cans use a feather dance
+move: feather dance
+checking: he can't use a feather dance
+checking: he can't use feather dance
+checking: he can use a feather dance
+checking: weekends use a feather dance
+checking: he cans use a feather dance
+Unknown command! Try again.
+Waiting for player command
+[]
+No input
+Waiting for player command
+{'alternative': [{'transcript': 'figure it to be more noise instead of', 'confidence': 0.88675946}, {'transcript': 'cigarette to be more noise instead of'}, {'transcript': 'figure it to be more noise instead'}, {'transcript': 'figure it to be more noise until'}, {'transcript': 'figure it to be more noise'}], 'final': True}
+move: thunder shock
+checking: figure it to be more noise instead of
+checking: cigarette to be more noise instead of
+checking: figure it to be more noise instead
+checking: figure it to be more noise until
+checking: figure it to be more noise
+move: bug bite
+checking: figure it to be more noise instead of
+checking: cigarette to be more noise instead of
+checking: figure it to be more noise instead
+checking: figure it to be more noise until
+checking: figure it to be more noise
+move: vine whip
+checking: figure it to be more noise instead of
+checking: cigarette to be more noise instead of
+checking: figure it to be more noise instead
+checking: figure it to be more noise until
+checking: figure it to be more noise
+move: feather dance
+checking: figure it to be more noise instead of
+checking: cigarette to be more noise instead of
+checking: figure it to be more noise instead
+checking: figure it to be more noise until
+checking: figure it to be more noise
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'how come I heard that and not the other', 'confidence': 0.96066177}, {'transcript': 'how come I heard that not the other'}, {'transcript': 'how come I heard that and knock the other'}, {'transcript': 'how come I heard that and knocked the other'}, {'transcript': 'how come I heard that and not the author'}], 'final': True}
+move: thunder shock
+checking: how come i heard that and not the other
+checking: how come i heard that not the other
+checking: how come i heard that and knock the other
+checking: how come i heard that and knocked the other
+checking: how come i heard that and not the author
+move: bug bite
+checking: how come i heard that and not the other
+checking: how come i heard that not the other
+checking: how come i heard that and knock the other
+checking: how come i heard that and knocked the other
+checking: how come i heard that and not the author
+move: vine whip
+checking: how come i heard that and not the other
+checking: how come i heard that not the other
+checking: how come i heard that and knock the other
+checking: how come i heard that and knocked the other
+checking: how come i heard that and not the author
+move: feather dance
+checking: how come i heard that and not the other
+checking: how come i heard that not the other
+checking: how come i heard that and knock the other
+checking: how come i heard that and knocked the other
+checking: how come i heard that and not the author
+Unknown command! Try again.
+Waiting for player command
+[]
+No input
+Waiting for player command
+{'alternative': [{'transcript': 'against use feather dance', 'confidence': 0.84487474}, {'transcript': 'Ekans use feather dance'}, {'transcript': "it can't use feather dance"}, {'transcript': 'you can use feather dance'}, {'transcript': 'Egans use feather dance'}], 'final': True}
+move: thunder shock
+checking: against use feather dance
+checking: ekans use feather dance
+pokemon called
+checking: it can't use feather dance
+checking: you can use feather dance
+checking: egans use feather dance
+move: bug bite
+checking: against use feather dance
+checking: ekans use feather dance
+pokemon called
+checking: it can't use feather dance
+checking: you can use feather dance
+checking: egans use feather dance
+move: vine whip
+checking: against use feather dance
+checking: ekans use feather dance
+pokemon called
+checking: it can't use feather dance
+checking: you can use feather dance
+checking: egans use feather dance
+move: feather dance
+checking: against use feather dance
+checking: ekans use feather dance
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Weedle use Peck"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Weedle use Peck', 'confidence': 0.93200207}, {'transcript': 'weedle-use Peck'}, {'transcript': 'Weedle use pack'}, {'transcript': 'Weedle use PEC'}, {'transcript': 'Weedle use pek'}], 'final': True}
+move: peck
+checking: weedle use peck
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Squirtle use Tackle"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Squirtle use tackle', 'confidence': 0.9028511}, {'transcript': 'Squirtle used tackle'}, {'transcript': 'Squirtle use taco'}, {'transcript': 'Squirtle used taco'}, {'transcript': 'Squirtle use teckle'}], 'final': True}
+move: scratch
+checking: squirtle use tackle
+pokemon called
+checking: squirtle used tackle
+pokemon called
+checking: squirtle use taco
+pokemon called
+checking: squirtle used taco
+pokemon called
+checking: squirtle use teckle
+pokemon called
+move: string shot
+checking: squirtle use tackle
+pokemon called
+checking: squirtle used tackle
+pokemon called
+checking: squirtle use taco
+pokemon called
+checking: squirtle used taco
+pokemon called
+checking: squirtle use teckle
+pokemon called
+move: tackle
+checking: squirtle use tackle
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Sandshrew use Aerial Ace"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Sandshrew use Ariel I', 'confidence': 0.90082181}, {'transcript': 'chance Sandshrew use Ariel I'}, {'transcript': 'Chan Sandshrew use Ariel I'}, {'transcript': 'chance and shrew use Ariel I'}, {'transcript': 'Chan Sandshrew use aerial ice'}], 'final': True}
+move: leer
+checking: sandshrew use ariel i
+pokemon called
+checking: chance sandshrew use ariel i
+pokemon called
+checking: chan sandshrew use ariel i
+pokemon called
+checking: chance and shrew use ariel i
+checking: chan sandshrew use aerial ice
+pokemon called
+move: aerial ace
+checking: sandshrew use ariel i
+pokemon called
+checking: chance sandshrew use ariel i
+pokemon called
+checking: chan sandshrew use ariel i
+pokemon called
+checking: chance and shrew use ariel i
+checking: chan sandshrew use aerial ice
+pokemon called
+move: feather dance
+checking: sandshrew use ariel i
+pokemon called
+checking: chance sandshrew use ariel i
+pokemon called
+checking: chan sandshrew use ariel i
+pokemon called
+checking: chance and shrew use ariel i
+checking: chan sandshrew use aerial ice
+pokemon called
+move: dragon breath
+checking: sandshrew use ariel i
+pokemon called
+checking: chance sandshrew use ariel i
+pokemon called
+checking: chan sandshrew use ariel i
+pokemon called
+checking: chance and shrew use ariel i
+checking: chan sandshrew use aerial ice
+pokemon called
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': "can you remember Sandshrew that's so hard to", 'confidence': 0.89318722}, {'transcript': "can you remove Sandshrew that's so hard to"}, {'transcript': 'can you remember Sandshrew but so hard to'}, {'transcript': 'can you remove Sandshrew but so hard to'}], 'final': True}
+move: leer
+checking: can you remember sandshrew that's so hard to
+pokemon called
+checking: can you remove sandshrew that's so hard to
+pokemon called
+checking: can you remember sandshrew but so hard to
+pokemon called
+checking: can you remove sandshrew but so hard to
+pokemon called
+move: aerial ace
+checking: can you remember sandshrew that's so hard to
+pokemon called
+checking: can you remove sandshrew that's so hard to
+pokemon called
+checking: can you remember sandshrew but so hard to
+pokemon called
+checking: can you remove sandshrew but so hard to
+pokemon called
+move: feather dance
+checking: can you remember sandshrew that's so hard to
+pokemon called
+checking: can you remove sandshrew that's so hard to
+pokemon called
+checking: can you remember sandshrew but so hard to
+pokemon called
+checking: can you remove sandshrew but so hard to
+pokemon called
+move: dragon breath
+checking: can you remember sandshrew that's so hard to
+pokemon called
+checking: can you remove sandshrew that's so hard to
+pokemon called
+checking: can you remember sandshrew but so hard to
+pokemon called
+checking: can you remove sandshrew but so hard to
+pokemon called
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'ice', 'confidence': 0.8336246}, {'transcript': 'Heist'}, {'transcript': 'price'}, {'transcript': 'Feist'}], 'final': True}
+move: leer
+checking: ice
+checking: heist
+checking: price
+checking: feist
+move: aerial ace
+checking: ice
+checking: heist
+checking: price
+checking: feist
+move: feather dance
+checking: ice
+checking: heist
+checking: price
+checking: feist
+move: dragon breath
+checking: ice
+checking: heist
+checking: price
+checking: feist
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'Sandshrew use aerial Ace', 'confidence': 0.88155961}, {'transcript': 'Sandshrew use Ariel Ace'}, {'transcript': 'sand shrew use Ariel Ace'}, {'transcript': 'send true use aerial Ace'}, {'transcript': 'Sandshrew use Ariel face'}], 'final': True}
+move: leer
+checking: sandshrew use aerial ace
+pokemon called
+checking: sandshrew use ariel ace
+pokemon called
+checking: sand shrew use ariel ace
+checking: send true use aerial ace
+checking: sandshrew use ariel face
+pokemon called
+move: aerial ace
+checking: sandshrew use aerial ace
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Weedle use Assurance"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Weedle use assurance', 'confidence': 0.96485329}, {'transcript': 'Weedle use insurance'}, {'transcript': "we don't use assurance"}, {'transcript': 'wheedle use assurance'}, {'transcript': 'weedel use assurance'}], 'final': True}
+move: nuzzle
+checking: weedle use assurance
+pokemon called
+checking: weedle use insurance
+pokemon called
+checking: we don't use assurance
+checking: wheedle use assurance
+checking: weedel use assurance
+move: assurance
+checking: weedle use assurance
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Pikachu use Bite"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Pikachu used bike', 'confidence': 0.83305508}, {'transcript': 'Pikachu use bite'}, {'transcript': 'Pikachu used by'}, {'transcript': 'Pikachu used bite'}, {'transcript': 'Pikachu use bike'}], 'final': True}
+move: bite
+checking: pikachu used bike
+pokemon called
+checking: pikachu use bite
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Bulbasaur use Scratch"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Bulbasaur use scr', 'confidence': 0.92061996}, {'transcript': 'Bulbasaur use scratch'}, {'transcript': 'Bulbasaur used scr'}, {'transcript': 'Bulbasaur use'}, {'transcript': 'Bulbasaur used'}], 'final': True}
+move: dragon breath
+checking: bulbasaur use scr
+pokemon called
+checking: bulbasaur use scratch
+pokemon called
+checking: bulbasaur used scr
+pokemon called
+checking: bulbasaur use
+pokemon called
+checking: bulbasaur used
+pokemon called
+move: scratch
+checking: bulbasaur use scr
+pokemon called
+checking: bulbasaur use scratch
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Pikachu use String Shot"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Pikachu use sling stringshot', 'confidence': 0.94488233}, {'transcript': 'Pikachu use sling slingshot'}, {'transcript': 'Pikachu use sling strings shot'}, {'transcript': 'Pikachu use sling String Shot'}, {'transcript': 'Pikachu use sling screenshot'}], 'final': True}
+move: string shot
+checking: pikachu use sling stringshot
+pokemon called
+checking: pikachu use sling slingshot
+pokemon called
+checking: pikachu use sling strings shot
+pokemon called
+checking: pikachu use sling string shot
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Ekans use Razor Leaf"
+
+Waiting for player command
+{'alternative': [{'transcript': 'begins use Razor Leaf', 'confidence': 0.9403913}, {'transcript': 'weekends use Razor Leaf'}, {'transcript': 'begins used Razor Leaf'}, {'transcript': 'against use Razor Leaf'}, {'transcript': 'ekins use Razor Leaf'}], 'final': True}
+move: razor leaf
+checking: begins use razor leaf
+checking: weekends use razor leaf
+checking: begins used razor leaf
+checking: against use razor leaf
+checking: ekins use razor leaf
+move: tackle
+checking: begins use razor leaf
+checking: weekends use razor leaf
+checking: begins used razor leaf
+checking: against use razor leaf
+checking: ekins use razor leaf
+move: feather dance
+checking: begins use razor leaf
+checking: weekends use razor leaf
+checking: begins used razor leaf
+checking: against use razor leaf
+checking: ekins use razor leaf
+move: aerial ace
+checking: begins use razor leaf
+checking: weekends use razor leaf
+checking: begins used razor leaf
+checking: against use razor leaf
+checking: ekins use razor leaf
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': "it's like not good at eating Akins use Razor Leaf", 'confidence': 0.92625964}, {'transcript': "it's like not good at eating's use Razor Leaf"}, {'transcript': "it's like not good at eating to eakins use Razor Leaf"}, {'transcript': "it's like not good Atkins use Razor Leaf"}, {'transcript': "it's like not good at eating use Razor Leaf"}], 'final': True}
+move: razor leaf
+checking: it's like not good at eating akins use razor leaf
+checking: it's like not good at eating's use razor leaf
+checking: it's like not good at eating to eakins use razor leaf
+checking: it's like not good atkins use razor leaf
+checking: it's like not good at eating use razor leaf
+move: tackle
+checking: it's like not good at eating akins use razor leaf
+checking: it's like not good at eating's use razor leaf
+checking: it's like not good at eating to eakins use razor leaf
+checking: it's like not good atkins use razor leaf
+checking: it's like not good at eating use razor leaf
+move: feather dance
+checking: it's like not good at eating akins use razor leaf
+checking: it's like not good at eating's use razor leaf
+checking: it's like not good at eating to eakins use razor leaf
+checking: it's like not good atkins use razor leaf
+checking: it's like not good at eating use razor leaf
+move: aerial ace
+checking: it's like not good at eating akins use razor leaf
+checking: it's like not good at eating's use razor leaf
+checking: it's like not good at eating to eakins use razor leaf
+checking: it's like not good atkins use razor leaf
+checking: it's like not good at eating use razor leaf
+Unknown command! Try again.
+Waiting for player command
+{'alternative': [{'transcript': 'Atkins use Razor Leaf', 'confidence': 0.91514301}, {'transcript': 'Ekans use Razor Leaf'}, {'transcript': 'Atkins used Razor Leaf'}, {'transcript': 'Ekans used Razor Leaf'}, {'transcript': 'Atkins use razor-leaf'}], 'final': True}
+move: razor leaf
+checking: atkins use razor leaf
+checking: ekans use razor leaf
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Squirtle use Thunder Shock"
+
+Waiting for player command
+{'alternative': [{'transcript': 'Squirtle use thundershock', 'confidence': 0.8813448}, {'transcript': 'Squirtle use thunder shock'}, {'transcript': 'Squirtle use Thunder shot'}, {'transcript': 'Squirtle used thundershock'}, {'transcript': 'Squirtle use Thunderstruck'}], 'final': True}
+move: aerial ace
+checking: squirtle use thundershock
+pokemon called
+checking: squirtle use thunder shock
+pokemon called
+checking: squirtle use thunder shot
+pokemon called
+checking: squirtle used thundershock
+pokemon called
+checking: squirtle use thunderstruck
+pokemon called
+move: thunder shock
+checking: squirtle use thundershock
+pokemon called
+checking: squirtle use thunder shock
+pokemon called
+move found
+Done testing? Ctrl/Cmd + s to save to txt file!
+Say:
+"Pikachu use Nuzzle"
+
+^C%                                                                                      (WarmEnv) chris@s-169-232-95-232 Testing % 
