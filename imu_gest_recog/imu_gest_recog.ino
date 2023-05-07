@@ -35,22 +35,20 @@ ICM_20948_I2C myICM; // Otherwise create an ICM_20948_I2C object
 // wifi and mqtt initiation
 
 // WiFi
-const char *ssid = "ming"; // Enter your WiFi name
-const char *password = "12345678";  // Enter WiFi password
+const char *ssid = "Triangle"; // Enter your WiFi name
+const char *password = "brothersdeltat";  // Enter WiFi password
 
 // MQTT Broker
 const char *mqtt_broker = "mqtt.eclipseprojects.io";
-const char *topic = "meme/main";
-const char *topic_it = "meme/it"; 
-const char *topic_x = "meme/x";
-const char *topic_y = "meme/y";
-const char *topic_z = "meme/z";
-const char *topic_gx = "meme/gx";
-const char *topic_gy = "meme/gy";
-const char *topic_gz = "meme/gz";
-const char *topic_recog = "meme/recog";
-// const char *mqtt_username = "emqx";
-// const char *mqtt_password = "public";
+const char *topic = "Team-2/Digimon/main";
+const char *topic_it = "Team-2/Digimon/it"; 
+const char *topic_x = "Team-2/Digimon/x";
+const char *topic_y = "Team-2/Digimon/y";
+const char *topic_z = "Team-2/Digimon/z";
+const char *topic_gx = "Team-2/Digimon/gx";
+const char *topic_gy = "Team-2/Digimon/gy";
+const char *topic_gz = "Team-2/Digimon/gz";
+const char *topic_recog = "Team-2/Digimon/recog";
 const int mqtt_port = 1883;
 
 WiFiClient espClient;
