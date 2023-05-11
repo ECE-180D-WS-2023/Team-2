@@ -2,57 +2,97 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using M2MqttUnity;
+using uPLibrary.Networking.M2Mqtt;
+using uPLibrary.Networking.M2Mqtt.Messages;
 
 //Controls Player movement in gridspace
 //Unlikely needs change
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed;
-    public LayerMask solidObjectsLayer;
-    public LayerMask interactableLayer;
-    public LayerMask grassLayer;
+    [SerializeField] string name;
+    [SerializeField] Sprite sprite;
 
-    public event Action OnEncountered;
-
-    public bool isMoving;
     public Vector2 input;
 
-    private Animator animator;
+    private CharacterAnimator animator;
+    private Character character;
 
-    private void Awake()
+    MqttClient client = new MqttClient("mqtt.eclipseprojects.io");
+
+    void Awake()
     {
-        animator = GetComponent<Animator>();
+        animator = GetComponent<CharacterAnimator>();
+        character = GetComponent<Character>();
+
+        string[] mqtt_topic = { "Team-2/Digimon/players/#" };
+        byte[] mqtt_qosLevels = { MqttMsgBase.QOS_LEVEL_AT_MOST_ONCE };
+
+        client.MqttMsgPublishReceived += client_MqttMsgPublishReceived;
+        client.Connect("");
+        client.Subscribe(mqtt_topic, mqtt_qosLevels);
+    }
+
+    void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
+    {
+        
     }
 
     public void HandleUpdate()
     {
-        if (!isMoving)
+        if (!character.IsMoving)
         {
             input.x = Input.GetAxisRaw("Horizontal");
+
+            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
+            {
+                client.Publish("Team-2/Digimon/players/player1/x_pos", System.Text.Encoding.UTF8.GetBytes(character.transform.position.x.ToString()));
+                new WaitForSeconds(0.1f);
+            }
+
             input.y = Input.GetAxisRaw("Vertical");
+
+            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
+            {
+                client.Publish("Team-2/Digimon/players/player1/y_pos", System.Text.Encoding.UTF8.GetBytes(character.transform.position.y.ToString()));
+                new WaitForSeconds(0.1f);
+            }
+
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                client.Publish("Team-2/Digimon/players/player1/looking", System.Text.Encoding.UTF8.GetBytes("left"));
+                new WaitForSeconds(0.1f);
+                //Debug.Log("transmitting left");
+            }
+            else if (Input.GetKey(KeyCode.RightArrow))
+            {
+                client.Publish("Team-2/Digimon/players/player1/looking", System.Text.Encoding.UTF8.GetBytes("right"));
+                new WaitForSeconds(0.1f);
+            }
+            else if (Input.GetKey(KeyCode.UpArrow))
+            {
+                client.Publish("Team-2/Digimon/players/player1/looking", System.Text.Encoding.UTF8.GetBytes("up"));
+                new WaitForSeconds(0.1f);
+                //Debug.Log("transmitting up");
+            }
+            else if (Input.GetKey(KeyCode.DownArrow))
+            {
+                client.Publish("Team-2/Digimon/players/player1/looking", System.Text.Encoding.UTF8.GetBytes("down"));
+                new WaitForSeconds(0.1f);
+            }
 
             //If a player goes in a diagonal direction, they move at sqrt(2)*v
             //This prevents speed exploits
             if (input.x != 0) input.y = 0;
 
             if (input != Vector2.zero)
-                {
-
-                animator.SetFloat("moveX", input.x);
-                animator.SetFloat("moveY", input.y);
-                var targetPos = transform.position;
-                targetPos.x += input.x;
-                targetPos.y += input.y;
-
-                if (IsWalkable(targetPos))
-                {
-                    StartCoroutine(Move(targetPos));
-                }
+            {
+                StartCoroutine(character.Move(input, OnMoveOver));
             }
         }
 
-        animator.SetBool("isMoving", isMoving);
+        character.HandleUpdate();
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
@@ -62,51 +102,42 @@ public class PlayerController : MonoBehaviour
 
     void Interact()
     {
-        var facingDir = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+        var facingDir = new Vector3(character.Animator.MoveX, character.Animator.MoveY);
         var interactPos = transform.position + facingDir;
 
-        Debug.DrawLine(transform.position, interactPos, Color.green, 0.5f);
+        //Debug.DrawLine(transform.position, interactPos, Color.green, 0.5f);
 
-        var collider = Physics2D.OverlapCircle(interactPos, 0.3f, interactableLayer);
+        var collider = Physics2D.OverlapCircle(interactPos, 0.3f, GameLayers.i.InteractableLayer);
         if (collider != null)
         {
-            collider.GetComponent<Interactable>()?.Interact();
+            collider.GetComponent<Interactable>()?.Interact(transform);
         }
     }
 
-    IEnumerator Move(Vector3 targetPos)
+    private void OnMoveOver()
     {
-        isMoving = true;
-        while((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
+        var colliders = Physics2D.OverlapCircleAll(transform.position - new Vector3(0, character.OffsetY), 0.2f, GameLayers.i.TriggerableLayers);
+        foreach (var collider in colliders)
         {
-            transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
-            yield return null;
-        }
-        transform.position = targetPos;
-
-        isMoving = false;
-
-        CheckForEncounters();
-    }
-
-    private bool IsWalkable(Vector3 targetPos)
-    {
-        if(Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectsLayer | interactableLayer) != null)
-        {
-            return false;
-        }
-        return true;
-    }
-
-    private void CheckForEncounters()
-    {
-        if(Physics2D.OverlapCircle(transform.position, 0.2f, grassLayer) != null)
-        {
-            if (UnityEngine.Random.Range(1,101) <= 10)
+            var triggerable = collider.GetComponent<IPlayerTriggerable>();
+            if(triggerable != null)
             {
-                animator.SetBool("isMoving", false);
-                OnEncountered();
+                character.Animator.IsMoving = false;
+                triggerable.OnPlayerTriggered(this);
+                break;
             }
         }
     }
+
+    public string Name
+    {
+        get => name;
+    }
+
+    public Sprite Sprite
+    {
+        get => sprite;
+    }
+
+    public Character Character => character;
 }
