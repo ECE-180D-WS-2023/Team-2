@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
             {
-                client.Publish("Team-2/Digimon/players/player1/x_pos", System.Text.Encoding.UTF8.GetBytes(character.transform.position.x.ToString()));
+                client.Publish("Team-2/Digimon/players/player2/x_pos", System.Text.Encoding.UTF8.GetBytes(character.transform.position.x.ToString()));
                 new WaitForSeconds(0.1f);
             }
 
@@ -55,30 +55,30 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
             {
-                client.Publish("Team-2/Digimon/players/player1/y_pos", System.Text.Encoding.UTF8.GetBytes(character.transform.position.y.ToString()));
+                client.Publish("Team-2/Digimon/players/player2/y_pos", System.Text.Encoding.UTF8.GetBytes(character.transform.position.y.ToString()));
                 new WaitForSeconds(0.1f);
             }
 
             if (Input.GetKey(KeyCode.LeftArrow))
             {
-                client.Publish("Team-2/Digimon/players/player1/looking", System.Text.Encoding.UTF8.GetBytes("left"));
+                client.Publish("Team-2/Digimon/players/player2/looking", System.Text.Encoding.UTF8.GetBytes("left"));
                 new WaitForSeconds(0.1f);
                 //Debug.Log("transmitting left");
             }
             else if (Input.GetKey(KeyCode.RightArrow))
             {
-                client.Publish("Team-2/Digimon/players/player1/looking", System.Text.Encoding.UTF8.GetBytes("right"));
+                client.Publish("Team-2/Digimon/players/player2/looking", System.Text.Encoding.UTF8.GetBytes("right"));
                 new WaitForSeconds(0.1f);
             }
             else if (Input.GetKey(KeyCode.UpArrow))
             {
-                client.Publish("Team-2/Digimon/players/player1/looking", System.Text.Encoding.UTF8.GetBytes("up"));
+                client.Publish("Team-2/Digimon/players/player2/looking", System.Text.Encoding.UTF8.GetBytes("up"));
                 new WaitForSeconds(0.1f);
                 //Debug.Log("transmitting up");
             }
             else if (Input.GetKey(KeyCode.DownArrow))
             {
-                client.Publish("Team-2/Digimon/players/player1/looking", System.Text.Encoding.UTF8.GetBytes("down"));
+                client.Publish("Team-2/Digimon/players/player2/looking", System.Text.Encoding.UTF8.GetBytes("down"));
                 new WaitForSeconds(0.1f);
             }
 
