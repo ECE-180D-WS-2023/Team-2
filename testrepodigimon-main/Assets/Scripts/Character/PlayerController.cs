@@ -19,7 +19,9 @@ public class PlayerController : MonoBehaviour
     private CharacterAnimator animator;
     private Character character;
 
-    MqttClient client = new MqttClient("mqtt.eclipseprojects.io");
+    bool multiplayerWorld = false; 
+
+    MqttClient client = new MqttClient("mqtt.eclipseprojects.io");  
 
     void Awake()
     {
@@ -41,44 +43,64 @@ public class PlayerController : MonoBehaviour
 
     public void HandleUpdate()
     {
+
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            multiplayerWorld = true;
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            multiplayerWorld = false;
+        }
+
+        if (multiplayerWorld)
+        {
+            client.Publish("Team-2/Digimon/players/player1/multi", System.Text.Encoding.UTF8.GetBytes("connected"));
+            new WaitForSeconds(0.1f);
+        }
+        else
+        {
+            client.Publish("Team-2/Digimon/players/player1/multi", System.Text.Encoding.UTF8.GetBytes("disconnected"));
+            new WaitForSeconds(0.1f);
+        }
+
         if (!character.IsMoving)
         {
             input.x = Input.GetAxisRaw("Horizontal");
-
-            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
-            {
-                client.Publish("Team-2/Digimon/players/player2/x_pos", System.Text.Encoding.UTF8.GetBytes(character.transform.position.x.ToString()));
-                new WaitForSeconds(0.1f);
-            }
-
             input.y = Input.GetAxisRaw("Vertical");
 
-            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
+            if ((Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow)) && multiplayerWorld)
             {
-                client.Publish("Team-2/Digimon/players/player2/y_pos", System.Text.Encoding.UTF8.GetBytes(character.transform.position.y.ToString()));
+                client.Publish("Team-2/Digimon/players/player1/x_pos", System.Text.Encoding.UTF8.GetBytes(character.transform.position.x.ToString()));
                 new WaitForSeconds(0.1f);
             }
 
-            if (Input.GetKey(KeyCode.LeftArrow))
+            if ((Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow)) && multiplayerWorld)
             {
-                client.Publish("Team-2/Digimon/players/player2/looking", System.Text.Encoding.UTF8.GetBytes("left"));
+                client.Publish("Team-2/Digimon/players/player1/y_pos", System.Text.Encoding.UTF8.GetBytes(character.transform.position.y.ToString()));
+                new WaitForSeconds(0.1f);
+            }
+
+            if (Input.GetKey(KeyCode.LeftArrow) && multiplayerWorld)
+            {
+                client.Publish("Team-2/Digimon/players/player1/looking", System.Text.Encoding.UTF8.GetBytes("left"));
                 new WaitForSeconds(0.1f);
                 //Debug.Log("transmitting left");
             }
-            else if (Input.GetKey(KeyCode.RightArrow))
+            else if (Input.GetKey(KeyCode.RightArrow) && multiplayerWorld)
             {
-                client.Publish("Team-2/Digimon/players/player2/looking", System.Text.Encoding.UTF8.GetBytes("right"));
+                client.Publish("Team-2/Digimon/players/player1/looking", System.Text.Encoding.UTF8.GetBytes("right"));
                 new WaitForSeconds(0.1f);
             }
-            else if (Input.GetKey(KeyCode.UpArrow))
+            else if (Input.GetKey(KeyCode.UpArrow) && multiplayerWorld)
             {
-                client.Publish("Team-2/Digimon/players/player2/looking", System.Text.Encoding.UTF8.GetBytes("up"));
+                client.Publish("Team-2/Digimon/players/player1/looking", System.Text.Encoding.UTF8.GetBytes("up"));
                 new WaitForSeconds(0.1f);
                 //Debug.Log("transmitting up");
             }
-            else if (Input.GetKey(KeyCode.DownArrow))
+            else if (Input.GetKey(KeyCode.DownArrow) && multiplayerWorld)
             {
-                client.Publish("Team-2/Digimon/players/player2/looking", System.Text.Encoding.UTF8.GetBytes("down"));
+                client.Publish("Team-2/Digimon/players/player1/looking", System.Text.Encoding.UTF8.GetBytes("down"));
                 new WaitForSeconds(0.1f);
             }
 
