@@ -22,6 +22,9 @@ public class chat : MonoBehaviour
         client.Connect("");
         client.Subscribe(mqtt_topic, mqtt_qosLevels);
         Debug.Log("mqtt connected");
+
+        dictationRecognizer = new DictationRecognizer();
+        dictationRecognizer.DictationResult += DictationRecognizer_DictationResult;
     }
 
     void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
@@ -38,21 +41,40 @@ public class chat : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.U))
         {
             multiplayerWorld = true;
+            Debug.Log("multii chat");
         }
         else if (Input.GetKeyDown(KeyCode.Escape))
         {
             multiplayerWorld = false;
         }
-
-        if (Input.GetKeyDown(KeyCode.V))
+        else if (Input.GetKey(KeyCode.V))
         {
-            dictationRecognizer = new DictationRecognizer();
-            dictationRecognizer.DictationResult += DictationRecognizer_DictationResult;
+            StartCoroutine(speechCall());
+        }
+        else if (Input.GetKeyUp(KeyCode.V))
+        {
+            new WaitForSeconds(2);
+            dictationRecognizer.DictationResult -= DictationRecognizer_DictationResult;
+            dictationRecognizer.Stop();
+            dictationRecognizer.Dispose();
         }
     }
 
     private void DictationRecognizer_DictationResult(string text, ConfidenceLevel confidence)
     {
         client.Publish("Team-2/Digimon/players/player1/chat", System.Text.Encoding.UTF8.GetBytes(text));
+        Debug.Log("Player 1: " + text);
     }
+
+    IEnumerator speechCall()
+    {
+        dictationRecognizer.Start();
+        Debug.Log("chat speech started");
+        while (!Input.GetKeyUp(KeyCode.V))
+        {
+
+        }
+        yield return new WaitForSeconds(1);
+    }
+
 }
