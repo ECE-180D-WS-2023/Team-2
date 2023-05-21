@@ -74,8 +74,8 @@ public class chat : MonoBehaviour
     {
         dictationRecognizer = new DictationRecognizer();
         dictationRecognizer.DictationResult += DictationRecognizer_DictationResult;
-        dictationRecognizer.Start();
-        //Debug.Log("chat speech started");
+        dictationRecognizer.Start();  
+       // Debug.Log("chat speech started");
         yield return new WaitWhile(() => Input.GetKey(KeyCode.V));
         //Debug.Log("let go of V");
     }
