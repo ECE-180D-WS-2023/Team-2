@@ -4082,7 +4082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6736173305334826320, guid: 4a0f9ce7e7902b0418a999a54e19432c, type: 3}
       propertyPath: sceneToLoad
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6736173305334826320, guid: 4a0f9ce7e7902b0418a999a54e19432c, type: 3}
       propertyPath: destinationPortal
@@ -4220,7 +4220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6736173305334826320, guid: 4a0f9ce7e7902b0418a999a54e19432c, type: 3}
       propertyPath: sceneToLoad
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6736173305334826320, guid: 4a0f9ce7e7902b0418a999a54e19432c, type: 3}
       propertyPath: destinationPortal
@@ -4291,6 +4291,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6736173305334826320, guid: 4a0f9ce7e7902b0418a999a54e19432c, type: 3}
+      propertyPath: sceneToLoad
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6736173305334826320, guid: 4a0f9ce7e7902b0418a999a54e19432c, type: 3}
       propertyPath: destinationPortal
       value: 2
