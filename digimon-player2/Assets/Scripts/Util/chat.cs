@@ -9,7 +9,8 @@ using UnityEngine.Windows.Speech;
 public class chat : MonoBehaviour
 {
     bool multiplayerWorld = false;
-    private DictationRecognizer dictationRecognizer;
+    public DictationRecognizer dictationRecognizer;
+    public string recognized_text = "";
 
     MqttClient client = new MqttClient("mqtt.eclipseprojects.io");
 
@@ -22,6 +23,10 @@ public class chat : MonoBehaviour
         client.Connect("");
         client.Subscribe(mqtt_topic, mqtt_qosLevels);
         Debug.Log("mqtt connected");
+
+        dictationRecognizer = new DictationRecognizer();
+        dictationRecognizer.DictationResult += DictationRecognizer_DictationResult;
+        dictationRecognizer.Start();
     }
 
     void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
@@ -51,6 +56,12 @@ public class chat : MonoBehaviour
             multiplayerWorld = false;
             //Debug.Log("exit multi chat");
         }
+        else if (Input.GetKeyUp(KeyCode.V))
+        {
+            if (recognized_text != "")
+                client.Publish("Team-2/Digimon/players/player2/chat", System.Text.Encoding.UTF8.GetBytes(recognized_text));
+        }
+        /*
         else if (Input.GetKeyDown(KeyCode.V))
         {
             StartCoroutine(startChatting());
@@ -63,14 +74,21 @@ public class chat : MonoBehaviour
             dictationRecognizer.Stop();
             dictationRecognizer.Dispose();
         }
+        */
     }
 
-    private void DictationRecognizer_DictationResult(string text, ConfidenceLevel confidence)
+    public void DictationRecognizer_DictationResult(string text, ConfidenceLevel confidence)
     {
-        client.Publish("Team-2/Digimon/players/player2/chat", System.Text.Encoding.UTF8.GetBytes(text));
+        if (Input.GetKey(KeyCode.V) && multiplayerWorld)
+        {
+            Debug.Log(text);
+            recognized_text = text;
+
+        }
     }
 
-    IEnumerator startChatting()
+    /*
+     IEnumerator startChatting()
     {
         dictationRecognizer = new DictationRecognizer();
         dictationRecognizer.DictationResult += DictationRecognizer_DictationResult;
@@ -79,4 +97,5 @@ public class chat : MonoBehaviour
         yield return new WaitWhile(() => Input.GetKey(KeyCode.V));
         //Debug.Log("let go of V");
     }
+    */
 }

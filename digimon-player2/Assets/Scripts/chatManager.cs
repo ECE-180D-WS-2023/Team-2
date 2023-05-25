@@ -55,6 +55,7 @@ public class chatManager : MonoBehaviour
             sendtochat("YEEEEET");
             Debug.Log("YEEET");
         }
+ 
 
         if (p1_string != "")
         {

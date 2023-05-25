@@ -50,10 +50,18 @@ public class BattleSystem : MonoBehaviour
     PlayerController player;
     TrainerController trainer;
 
+    public chat chat;
+
     int escapeAttempts;
 
     void Start()
     {
+        chat.dictationRecognizer.DictationResult -= chat.DictationRecognizer_DictationResult;
+        chat.dictationRecognizer.Stop();
+        chat.dictationRecognizer.Dispose();
+
+
+
         grammarRecognizer = new GrammarRecognizer(Application.streamingAssetsPath + "/grammar.xml");
         grammarRecognizer.OnPhraseRecognized += RecognizedSpeech;
         grammarRecognizer.Start();
@@ -175,6 +183,7 @@ public class BattleSystem : MonoBehaviour
         playerParty.Pokemons.ForEach(p => p.OnBattleOver());
         OnBattleOver(won);
         PhraseRecognitionSystem.Shutdown();
+        chat.dictationRecognizer.Start();
 
         //temporary fix for bug where encountering a wild pokemon after trainer battle
         if (isTrainerBattle)
