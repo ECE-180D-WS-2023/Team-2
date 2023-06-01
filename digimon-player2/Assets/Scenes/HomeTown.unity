@@ -16740,6 +16740,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6736173305334826320, guid: 4a0f9ce7e7902b0418a999a54e19432c, type: 3}
+      propertyPath: sceneToLoad
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6736173305334826321, guid: 4a0f9ce7e7902b0418a999a54e19432c, type: 3}
       propertyPath: m_Size.x
       value: 1
