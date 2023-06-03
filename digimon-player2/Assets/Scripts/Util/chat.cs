@@ -9,8 +9,8 @@ using UnityEngine.Windows.Speech;
 public class chat : MonoBehaviour
 {
     bool multiplayerWorld = false;
-    public DictationRecognizer dictationRecognizer;
-    public string recognized_text = "";
+    bool complete = false;
+    private DictationRecognizer dictationRecognizer;
 
     MqttClient client = new MqttClient("mqtt.eclipseprojects.io");
 
@@ -23,10 +23,6 @@ public class chat : MonoBehaviour
         client.Connect("");
         client.Subscribe(mqtt_topic, mqtt_qosLevels);
         Debug.Log("mqtt connected");
-
-        dictationRecognizer = new DictationRecognizer();
-        dictationRecognizer.DictationResult += DictationRecognizer_DictationResult;
-        dictationRecognizer.Start();
     }
 
     void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
@@ -56,46 +52,37 @@ public class chat : MonoBehaviour
             multiplayerWorld = false;
             //Debug.Log("exit multi chat");
         }
-        else if (Input.GetKeyUp(KeyCode.V))
-        {
-            if (recognized_text != "")
-                client.Publish("Team-2/Digimon/players/player2/chat", System.Text.Encoding.UTF8.GetBytes(recognized_text));
-        }
-        /*
         else if (Input.GetKeyDown(KeyCode.V))
         {
+            complete = false;
             StartCoroutine(startChatting());
         }
-        else if (Input.GetKeyUp(KeyCode.V))
-        {
-            new WaitForSeconds(1.5f);
-            //Debug.Log("byebye recognizer");
-            dictationRecognizer.DictationResult -= DictationRecognizer_DictationResult;
-            dictationRecognizer.Stop();
-            dictationRecognizer.Dispose();
-        }
-        */
     }
 
-    public void DictationRecognizer_DictationResult(string text, ConfidenceLevel confidence)
+    private void DictationRecognizer_DictationResult(string text, ConfidenceLevel confidence)
     {
-        if (Input.GetKey(KeyCode.V) && multiplayerWorld)
-        {
-            Debug.Log(text);
-            recognized_text = text;
-
-        }
+        client.Publish("Team-2/Digimon/players/player2/chat", System.Text.Encoding.UTF8.GetBytes(text));
+        complete = true;
+        //Debug.Log("send");
     }
 
-    /*
-     IEnumerator startChatting()
+    public void DictationRecognizer_DictationComplete(DictationCompletionCause cause)
+    {
+        //Debug.Log("complete");
+    }
+
+    IEnumerator startChatting()
     {
         dictationRecognizer = new DictationRecognizer();
         dictationRecognizer.DictationResult += DictationRecognizer_DictationResult;
-        dictationRecognizer.Start();  
-       // Debug.Log("chat speech started");
-        yield return new WaitWhile(() => Input.GetKey(KeyCode.V));
-        //Debug.Log("let go of V");
+        dictationRecognizer.DictationComplete += DictationRecognizer_DictationComplete;
+        dictationRecognizer.Start();
+        // Debug.Log("chat speech started");
+
+        yield return new WaitWhile(() => (Input.GetKey(KeyCode.V)) && complete != true);
+        Debug.Log("let go of V and complete");
+        //dictationRecognizer.DictationResult -= DictationRecognizer_DictationResult;
+        dictationRecognizer.Stop();
+        //dictationRecognizer.Dispose();
     }
-    */
 }
