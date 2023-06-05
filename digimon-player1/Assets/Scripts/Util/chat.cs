@@ -81,8 +81,8 @@ public class chat : MonoBehaviour
 
         yield return new WaitWhile(() => (Input.GetKey(KeyCode.V)) && complete != true);
         Debug.Log("let go of V and complete");
-        //dictationRecognizer.DictationResult -= DictationRecognizer_DictationResult;
+        dictationRecognizer.DictationResult -= DictationRecognizer_DictationResult;
         dictationRecognizer.Stop();
-        //dictationRecognizer.Dispose();
+        dictationRecognizer.Dispose();
     }
 }

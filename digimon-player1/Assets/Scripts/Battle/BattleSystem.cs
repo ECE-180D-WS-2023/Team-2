@@ -54,10 +54,7 @@ public class BattleSystem : MonoBehaviour
 
     void Start()
     {
-        grammarRecognizer = new GrammarRecognizer(Application.streamingAssetsPath + "/grammar.xml");
-        grammarRecognizer.OnPhraseRecognized += RecognizedSpeech;
-        grammarRecognizer.Start();
-        Debug.Log("started speech");
+        
 
         ////
 
@@ -113,7 +110,15 @@ public class BattleSystem : MonoBehaviour
         playerUnit.Clear();
         enemyUnit.Clear();
 
-        if(!isTrainerBattle)
+
+        // for voice inputs 
+
+        grammarRecognizer = new GrammarRecognizer(Application.streamingAssetsPath + "/grammar.xml");
+        grammarRecognizer.OnPhraseRecognized += RecognizedSpeech;
+        grammarRecognizer.Start();
+        Debug.Log("started speech");
+
+        if (!isTrainerBattle)
         {
             //Wild Pokemon Battle 
             playerUnit.Setup(playerParty.GetHealthyPokemon());
