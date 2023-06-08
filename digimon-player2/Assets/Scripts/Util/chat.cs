@@ -9,7 +9,6 @@ using UnityEngine.Windows.Speech;
 public class chat : MonoBehaviour
 {
     bool multiplayerWorld = false;
-    bool complete = false;
     private DictationRecognizer dictationRecognizer;
 
     MqttClient client = new MqttClient("mqtt.eclipseprojects.io");
@@ -54,35 +53,30 @@ public class chat : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.V))
         {
-            complete = false;
             StartCoroutine(startChatting());
+        }
+        else if (Input.GetKeyUp(KeyCode.V))
+        {
+            new WaitForSeconds(1.5f);
+            //Debug.Log("byebye recognizer");
+            dictationRecognizer.DictationResult -= DictationRecognizer_DictationResult;
+            dictationRecognizer.Stop();
+            dictationRecognizer.Dispose();
         }
     }
 
     private void DictationRecognizer_DictationResult(string text, ConfidenceLevel confidence)
     {
         client.Publish("Team-2/Digimon/players/player2/chat", System.Text.Encoding.UTF8.GetBytes(text));
-        complete = true;
-        //Debug.Log("send");
-    }
-
-    public void DictationRecognizer_DictationComplete(DictationCompletionCause cause)
-    {
-        //Debug.Log("complete");
     }
 
     IEnumerator startChatting()
     {
         dictationRecognizer = new DictationRecognizer();
         dictationRecognizer.DictationResult += DictationRecognizer_DictationResult;
-        dictationRecognizer.DictationComplete += DictationRecognizer_DictationComplete;
-        dictationRecognizer.Start();
-        // Debug.Log("chat speech started");
-
-        yield return new WaitWhile(() => (Input.GetKey(KeyCode.V)) && complete != true);
-        Debug.Log("let go of V and complete");
-        //dictationRecognizer.DictationResult -= DictationRecognizer_DictationResult;
-        dictationRecognizer.Stop();
-        //dictationRecognizer.Dispose();
+        dictationRecognizer.Start();  
+       // Debug.Log("chat speech started");
+        yield return new WaitWhile(() => Input.GetKey(KeyCode.V));
+        //Debug.Log("let go of V");
     }
 }
