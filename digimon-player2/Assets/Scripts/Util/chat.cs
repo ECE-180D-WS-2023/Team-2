@@ -55,14 +55,6 @@ public class chat : MonoBehaviour
         {
             StartCoroutine(startChatting());
         }
-        else if (Input.GetKeyUp(KeyCode.V))
-        {
-            new WaitForSeconds(1.5f);
-            //Debug.Log("byebye recognizer");
-            dictationRecognizer.DictationResult -= DictationRecognizer_DictationResult;
-            dictationRecognizer.Stop();
-            dictationRecognizer.Dispose();
-        }
     }
 
     private void DictationRecognizer_DictationResult(string text, ConfidenceLevel confidence)
@@ -77,6 +69,8 @@ public class chat : MonoBehaviour
         dictationRecognizer.Start();  
        // Debug.Log("chat speech started");
         yield return new WaitWhile(() => Input.GetKey(KeyCode.V));
-        //Debug.Log("let go of V");
+        dictationRecognizer.DictationResult -= DictationRecognizer_DictationResult;
+        dictationRecognizer.Stop();
+        dictationRecognizer.Dispose();
     }
 }

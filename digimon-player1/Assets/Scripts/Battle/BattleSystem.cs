@@ -54,13 +54,6 @@ public class BattleSystem : MonoBehaviour
 
     void Start()
     {
-        grammarRecognizer = new GrammarRecognizer(Application.streamingAssetsPath + "/grammar.xml");
-        grammarRecognizer.OnPhraseRecognized += RecognizedSpeech;
-        grammarRecognizer.Start();
-        Debug.Log("started speech");
-
-        ////
-
         string[] mqtt_topic = { "Team-2/Digimon/recog", "Team-2/Digimon/visual" };
         byte[] mqtt_qosLevels = { MqttMsgBase.QOS_LEVEL_AT_MOST_ONCE, MqttMsgBase.QOS_LEVEL_AT_MOST_ONCE };
 
@@ -113,7 +106,7 @@ public class BattleSystem : MonoBehaviour
         playerUnit.Clear();
         enemyUnit.Clear();
 
-        if(!isTrainerBattle)
+        if (!isTrainerBattle)
         {
             //Wild Pokemon Battle 
             playerUnit.Setup(playerParty.GetHealthyPokemon());
@@ -154,6 +147,11 @@ public class BattleSystem : MonoBehaviour
 
         }
         escapeAttempts = 0;
+
+        grammarRecognizer = new GrammarRecognizer(Application.streamingAssetsPath + "/grammar.xml");
+        grammarRecognizer.OnPhraseRecognized += RecognizedSpeech;
+        grammarRecognizer.Start();
+        Debug.Log("started speech");
 
         partyScreen.Init();
         ActionSelection();
